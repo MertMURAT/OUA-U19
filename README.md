@@ -5,11 +5,11 @@ Takım Unity 19
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Mert Murat : Scrum Master / Product Owner / Developer
-- İrem Akdoğan : 3D Artist
+- Mert Murat : Product Owner / Developer
+- Ayşe Yılmaz : Scrum Master / Developer
 - Sezgin Coşkun : Developer
+- İrem Akdoğan : 3D Artist
 - Burak Özünalan : 3D Artist
-- Ayşe Yılmaz : Developer
 
 ## Ürün İsmi
 
