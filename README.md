@@ -8,8 +8,8 @@ Takım Unity 19
 - Mert Murat : Scrum Master / Product Owner / Developer
 - İrem Akdoğan : 3D Artist
 - Sezgin Coşkun : Developer
-- - Burak Özünalan : 3D Artist
-- Ayşe : Developer
+- Burak Özünalan : 3D Artist
+- Ayşe Yılmaz : Developer
 
 ## Ürün İsmi
 
