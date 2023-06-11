@@ -230,3 +230,92 @@ Received Import Request.
   path: Assets/Terrain/TerrainSampleAssets
   artifactKey: Guid(408ae776b9b67224db13e6bc04facddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Terrain/TerrainSampleAssets using Guid(408ae776b9b67224db13e6bc04facddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4f7f3a2314d63ec69f3dac25b2a86b') in 0.009651 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007158 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Desktop\Github2023\OUA-U19\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ADMIN\Desktop\Github2023\OUA-U19\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.222 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2224ms)
+		BeginReloadAssembly (410ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1707ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (521ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5540 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6115.
+Memory consumption went from 215.1 MB to 214.3 MB.
+Total: 6.596700 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.313100 ms MarkObjects: 5.178500 ms  DeleteObjects: 0.729200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 167.980534 seconds.
+  path: Assets/Terrain/TerrainData_7d5e6add-01e2-4a11-aaa6-1ac224d131e2.asset
+  artifactKey: Guid(3b90e25cd34c2bc42ad53c524d70494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_7d5e6add-01e2-4a11-aaa6-1ac224d131e2.asset using Guid(3b90e25cd34c2bc42ad53c524d70494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e816a1e724508b446e954700cd8898ea') in 0.058767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StarterAssets/Fast Run.fbx
+  artifactKey: Guid(4ba87d484aa01a94784d712c3f6f1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Fast Run.fbx using Guid(4ba87d484aa01a94784d712c3f6f1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de26d3459f8a275cbbb402561f89b5b') in 2.113897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrain/New Terrain 9.asset
+  artifactKey: Guid(8c509098c75b8fd459d75d66307e7af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain 9.asset using Guid(8c509098c75b8fd459d75d66307e7af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41b46f962682f76eef04cd51cec1198') in 0.015619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI Assets/Tablet
+  artifactKey: Guid(994aaaf21e0d3b748be300c0e459f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Assets/Tablet using Guid(994aaaf21e0d3b748be300c0e459f1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8827dd48e2c69a0304225110e159c0') in 0.009908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/StarterAssets/robot-hazır.fbx
+  artifactKey: Guid(29f6a1994e500f44bb6f0155713c4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/robot-hazır.fbx using Guid(29f6a1994e500f44bb6f0155713c4dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434be8104a89f2458e9ce11c0513865e') in 0.126274 seconds 
