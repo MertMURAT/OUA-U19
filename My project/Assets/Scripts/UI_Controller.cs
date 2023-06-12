@@ -13,6 +13,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject missionsPanel;
     public GameObject settingsPanel;
     public PlayerInput playerInput;
+    public List<GameObject> infoPanelList;
    
 
     void Update()
@@ -72,6 +73,18 @@ public class UI_Controller : MonoBehaviour
         mapPanel.SetActive(false);
     }
 
+    public void HideAll()
+    {
+        foreach (var item in infoPanelList)
+        {
+            item.SetActive(false);
+        }
+        minimap.SetActive(true);
+        Time.timeScale = 1;
+        playerInput.enabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
+    }
 
 }
