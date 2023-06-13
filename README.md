@@ -1,6 +1,6 @@
-# **Takım İsmi**
+# Team MABIS
 
-Takım Unity 19
+Takım Unity 19 - Team MABIS
 
 # Ürün İle İlgili Bilgiler
 
@@ -48,9 +48,7 @@ Symphocycle, eğlenceli ve eğitici bir deneyim sunarak sürdürülebilirlik bil
 
 - Sprint içinde tamamlanması tahmin edilen puan: 91 Puan
 
-
 - Puan tamamlama mantığı: Fibonacci Serisi (1-2-3-5-8-13 Sayıları) üzerinden yapılan işlere göre takım içinde puanlama sistemi kurduk. Toplam iş bölümü ve takım puanlamalarına göre yaklaşık 91 puan alınması öngörülmüştür. 
-
 
 - Daily Scrum: Takım içinde iletişimi Whatsapp ve Discord üzerinden sağlıyoruz. Her gün hem sesli hem mesaj ile iletişim halindeyiz. Haftanın 5 günü 20:00 ile 22:00 arasında Discord üzerinden ekran paylaşımı yaparak toplantı yapıyoruz.
 
@@ -69,7 +67,7 @@ Symphocycle, eğlenceli ve eğitici bir deneyim sunarak sürdürülebilirlik bil
 ---
 
 ## Product Backlog URL
-
+![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/129547499/1a7f90a5-c794-4bf8-b9e2-db422a587cb1)
 
 ---
 
