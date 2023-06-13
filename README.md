@@ -5,18 +5,18 @@ Takım Unity 19
 # Ürün İle İlgili Bilgiler
 
 ## Takım Elemanları
-- Mert Murat : Product Owner / Developer
-- Ayşe Yılmaz : Scrum Master / Developer
+- Mert Murat : Product Owner - Developer
+- Ayşe Yılmaz : Scrum Master - Developer
 - Sezgin Coşkun : Developer
 - İrem Akdoğan : 3D Artist
-- Burak Özünalan : 3D Artist
+- Burak Özünalan : 3D Artist - UI Designer
 
 ## Ürün İsmi
 
---Unity App--
+Symphocycle
 
 ## Product Backlog URL
-
+https://miro.com/app/board/uXjVMBtuo7I=/
 
 ## Ürün Açıklaması
 
