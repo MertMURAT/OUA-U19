@@ -4,13 +4,14 @@ using UnityEngine.InputSystem;
 public class UI_Controller : MonoBehaviour
 {
     public GameObject tabletPanel;
-    public GameObject minimap;
+    public GameObject minimap,freGun;
     public GameObject mapPanel;
     public GameObject missionsPanel;
     public GameObject settingsPanel;
     public GameObject mainmenuPanel;
     public PlayerInput playerInput;
     public AudioClip uiClick;
+    public bool isGun=false;
    
 
     void Update()
@@ -25,6 +26,18 @@ public class UI_Controller : MonoBehaviour
             {
                 CloseTablet();
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+           freGun.SetActive(true);
+            isGun= true;
+        }
+        if (Input.GetKeyUp(KeyCode.V))
+        {
+            freGun.SetActive(false);
+            isGun= false;
+
         }
     }
 
@@ -49,6 +62,7 @@ public class UI_Controller : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+   
 
     public void OpenMap()
     {
