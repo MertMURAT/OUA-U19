@@ -55,7 +55,11 @@ Symphocycle, eğlenceli ve eğitici bir deneyim sunarak sürdürülebilirlik bil
 - Sprint board update: ![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/129547499/1a7f90a5-c794-4bf8-b9e2-db422a587cb1) 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Ürün Durumu**: [Ekran görüntüleri:](https://youtu.be/nThkeBhQ2v4)
+![Ekran görüntüsü 2023-06-19 010043](https://github.com/MertMURAT/OUA-U19/assets/129547499/0f448f6f-65d3-4197-81d0-8211f3a2c087)
+![Ekran görüntüsü 2023-06-19 005851](https://github.com/MertMURAT/OUA-U19/assets/129547499/10a0953c-d8d5-4828-aa40-9018de29fb6b)
+![Ekran görüntüsü 2023-06-19 005910](https://github.com/MertMURAT/OUA-U19/assets/129547499/f6894660-fe8a-4bef-b3ad-3c73309ff157)
+
 
 - **Sprint Review**: 
 
