@@ -41,7 +41,7 @@ Symphocycle, eğlenceli ve eğitici bir deneyim sunarak sürdürülebilirlik bil
 - 13+
 
 ## Juriye Not
-
+Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tasarım kısmına odaklandık.
 ---
 
 # Sprint 1
@@ -52,19 +52,18 @@ Symphocycle, eğlenceli ve eğitici bir deneyim sunarak sürdürülebilirlik bil
 
 - Daily Scrum: Takım içinde iletişimi Whatsapp ve Discord üzerinden sağlıyoruz. Her gün hem sesli hem mesaj ile iletişim halindeyiz. Haftanın 5 günü 20:00 ile 22:00 arasında Discord üzerinden ekran paylaşımı yaparak toplantı yapıyoruz.
 
-- Sprint board update: ![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/129547499/1a7f90a5-c794-4bf8-b9e2-db422a587cb1) 
+- Sprint board update: ![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/129547499/37d0a6aa-e810-40d1-821a-32b5e96e78fd)
 
-
-- **Ürün Durumu**: [Ekran görüntüleri:](https://youtu.be/nThkeBhQ2v4)
+- Ürün Durumu: [Video](https://youtu.be/nThkeBhQ2v4)
 ![Ekran görüntüsü 2023-06-19 010043](https://github.com/MertMURAT/OUA-U19/assets/129547499/0f448f6f-65d3-4197-81d0-8211f3a2c087)
 ![Ekran görüntüsü 2023-06-19 005851](https://github.com/MertMURAT/OUA-U19/assets/129547499/10a0953c-d8d5-4828-aa40-9018de29fb6b)
 ![Ekran görüntüsü 2023-06-19 005910](https://github.com/MertMURAT/OUA-U19/assets/129547499/f6894660-fe8a-4bef-b3ad-3c73309ff157)
 
 
-- **Sprint Review**: 
+- Sprint Review: Oyun hikayesine karar verildi. Oyunun temasına uygun konsept çalışmalar yapıldı. Karakter kontrolleri, modeli, animasyonları yapıldı. Ana harita terraini oluşturuldu, ağaç ve çimenler eklendi. UI kısmında minimap, pause menu(tablet) tasarlandı ve işlevsel hale getirildi.
 
 
-- **Sprint Retrospective:**
+- Sprint Retrospective: GitHub ile ilgili olarak dosya boyutu ve aktarımı konusunda sıkıntı yaşandı ve bu konuda daha dikkatli, tedbirli olunması kararı alındı.
   
 
 
