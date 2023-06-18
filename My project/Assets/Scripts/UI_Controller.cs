@@ -1,4 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 public class UI_Controller : MonoBehaviour
@@ -8,9 +12,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject mapPanel;
     public GameObject missionsPanel;
     public GameObject settingsPanel;
-    public GameObject mainmenuPanel;
     public PlayerInput playerInput;
-    public AudioClip uiClick;
    
 
     void Update()
@@ -55,8 +57,6 @@ public class UI_Controller : MonoBehaviour
         mapPanel.SetActive(true);
         missionsPanel.SetActive(false);
         settingsPanel.SetActive(false);
-        mainmenuPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
     }
 
     public void OpenMissions()
@@ -64,27 +64,13 @@ public class UI_Controller : MonoBehaviour
         missionsPanel.SetActive(true);
         mapPanel.SetActive(false);
         settingsPanel.SetActive(false);
-        mainmenuPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
     }
     public void OpenSettings()
     {
         settingsPanel.SetActive(true);
         missionsPanel.SetActive(false);
         mapPanel.SetActive(false);
-        mainmenuPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
     }
-
-    public void OpenMainMenu()
-    {
-        mainmenuPanel.SetActive(true);
-        settingsPanel.SetActive(false);
-        missionsPanel.SetActive(false);
-        mapPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
-    }
-
 
 
 
