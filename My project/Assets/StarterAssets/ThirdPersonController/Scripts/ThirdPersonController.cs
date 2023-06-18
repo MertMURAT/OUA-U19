@@ -14,7 +14,6 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
-
         public static ThirdPersonController instance;
 
         [Header("Player")]
@@ -33,7 +32,7 @@ namespace StarterAssets
 
         public AudioClip LandingAudioClip;
         public AudioClip[] FootstepAudioClips;
-        [Range(0, 1)] public float FootstepAudioVolume = 0.5f;
+        public float FootstepAudioVolume = 0.5f;
 
         [Space(10)]
         [Tooltip("The height the player can jump")]
@@ -121,6 +120,7 @@ namespace StarterAssets
                 return _playerInput.currentControlScheme == "KeyboardMouse";
 #else
 				return false;
+
 #endif
             }
         }
@@ -128,13 +128,13 @@ namespace StarterAssets
 
         private void Awake()
         {
-
-            instance = this;
             // get a reference to our main camera
             if (_mainCamera == null)
             {
                 _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             }
+
+            instance = this;
         }
 
         private void Start()
