@@ -61,6 +61,9 @@ Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tas
 ![Ekran görüntüsü 2023-06-19 005910](https://github.com/MertMURAT/OUA-U19/assets/129547499/f6894660-fe8a-4bef-b3ad-3c73309ff157)
 
 
+![U19-Test1](https://github.com/MertMURAT/OUA-U19/assets/58560920/4486ef26-cd09-4953-b29e-393d201e1527)
+
+
 - Sprint Review: Oyun hikayesine karar verildi. Oyunun temasına uygun konsept çalışmalar yapıldı. Karakter kontrolleri, modeli, animasyonları yapıldı. Ana harita terraini oluşturuldu, ağaç ve çimenler eklendi. UI kısmında minimap, pause menu(tablet) tasarlandı ve işlevsel hale getirildi.
 
 
