@@ -52,7 +52,7 @@ Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tas
 
 - Daily Scrum: Takım içinde iletişimi Whatsapp ve Discord üzerinden sağlıyoruz. Her gün hem sesli hem mesaj ile iletişim halindeyiz. Haftanın 5 günü 20:00 ile 22:00 arasında Discord üzerinden ekran paylaşımı yaparak toplantı yapıyoruz.
 
-- Sprint board update: ![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/129547499/37d0a6aa-e810-40d1-821a-32b5e96e78fd)
+- Sprint board update: ![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/58560920/0cfff82c-ed95-4028-b88e-4b64696ef3bc)
 
 - Ürün Durumu: [Video](https://youtu.be/fROobGDxlrE)
 ![Ekran görüntüsü 2023-06-19 010043](https://github.com/MertMURAT/OUA-U19/assets/129547499/0f448f6f-65d3-4197-81d0-8211f3a2c087)
