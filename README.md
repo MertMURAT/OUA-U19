@@ -57,7 +57,9 @@ Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tas
 ## - Ürün Durumu: [Youtube Video](https://youtu.be/fROobGDxlrE)
 
 ![Ekran görüntüsü 2023-06-19 010043](https://github.com/MertMURAT/OUA-U19/assets/129547499/0f448f6f-65d3-4197-81d0-8211f3a2c087)
+
 ![Ekran görüntüsü 2023-06-19 005851](https://github.com/MertMURAT/OUA-U19/assets/129547499/10a0953c-d8d5-4828-aa40-9018de29fb6b)
+
 ![Ekran görüntüsü 2023-06-19 005910](https://github.com/MertMURAT/OUA-U19/assets/129547499/f6894660-fe8a-4bef-b3ad-3c73309ff157)
 
 
