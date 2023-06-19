@@ -55,12 +55,11 @@ Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tas
 - Sprint board update: ![Unity U-19 Team](https://github.com/MertMURAT/OUA-U19/assets/58560920/0cfff82c-ed95-4028-b88e-4b64696ef3bc)
 
 ## - Ürün Durumu: [Youtube Video](https://youtu.be/fROobGDxlrE)
+https://i.hizliresim.com/14v39wo.png
+https://i.hizliresim.com/ldt8e5k.png
+https://i.hizliresim.com/t28fz8e.png
 
-![Ekran görüntüsü 2023-06-19 010043](https://github.com/MertMURAT/OUA-U19/assets/129547499/0f448f6f-65d3-4197-81d0-8211f3a2c087)
 
-![Ekran görüntüsü 2023-06-19 005851](https://github.com/MertMURAT/OUA-U19/assets/129547499/10a0953c-d8d5-4828-aa40-9018de29fb6b)
-
-![Ekran görüntüsü 2023-06-19 005910](https://github.com/MertMURAT/OUA-U19/assets/129547499/f6894660-fe8a-4bef-b3ad-3c73309ff157)
 
 
 ![U19-Test1](https://github.com/MertMURAT/OUA-U19/assets/58560920/4486ef26-cd09-4953-b29e-393d201e1527)
