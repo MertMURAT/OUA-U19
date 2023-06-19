@@ -536,7 +536,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6002696826903695984, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: 98b6a518375d01243a14bc42d01b7dfb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1031,7 +1031,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2347260188834009259, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: 9562a893e0867b9499c85c915ec5e268, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1210,7 +1210,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6670671401703900021, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: 0d4115ad509fe5148baeb621d31a9c52, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2435,7 +2435,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -9162174385461919962, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: bed1b4bec22e6fe428fcd34d5f51a8aa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3619,7 +3619,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4906321429925310036}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 459.1, y: 2.16, z: -674.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3632,7 +3632,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1854705831868116628
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3649,7 +3649,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!143 &4906321429925310046
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3661,13 +3661,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.8
-  m_Radius: 0.28
+  m_Height: 1.1
+  m_Radius: 0.37
   m_SlopeLimit: 45
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.93, z: 0}
+  m_Center: {x: 0, y: 0.51, z: 0}
 --- !u!114 &4906321429925310047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4822,7 +4822,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6233449779170196236, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: 757614620aef85d4f87f3055601d2338, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6035,7 +6035,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 252316605855477566, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
-  - {fileID: 5139594147379942259, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 252316605855477566, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
   - {fileID: -3170160383518898468, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -11389,7 +11389,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5815434748693854790, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: de9705f2cc023714cbb07adb00c77a47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11757,7 +11757,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4405513639940738018, guid: 9e887f5943ca5a642a3bdf9e518d7c38, type: 3}
+  - {fileID: 2100000, guid: 725f2942a2e67344a904c204e20337cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
