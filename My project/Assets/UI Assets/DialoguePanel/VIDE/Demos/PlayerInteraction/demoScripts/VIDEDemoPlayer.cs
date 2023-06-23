@@ -14,7 +14,6 @@ public class VIDEDemoPlayer : MonoBehaviour
     public QuestChartDemo questUI;
     public Animator blue;
 
-    
 
     //Stored current VA when inside a trigger
     public VIDE_Assign inTrigger;
@@ -26,6 +25,8 @@ public class VIDEDemoPlayer : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+      
+
         if (other.GetComponent<VIDE_Assign>() != null)
             inTrigger = other.GetComponent<VIDE_Assign>();
     }
@@ -35,9 +36,13 @@ public class VIDEDemoPlayer : MonoBehaviour
         inTrigger = null;
     }
 
+    
+   
+
     void Start()
     {
-      
+        blue = GetComponent<Animator>();
+
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -58,8 +63,10 @@ public class VIDEDemoPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             TryInteract();
+            
         }
 
+/*
         //Hide/Show cursor
         if (Input.GetMouseButtonDown(0))
         {
@@ -72,13 +79,17 @@ public class VIDEDemoPlayer : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
                 }
         }
+        */
     }
+
+
+    
 
     //Casts a ray to see if we hit an NPC and, if so, we interact
     void TryInteract()
     {
         /* Prioritize triggers */
-
+    
         if (inTrigger)
         {
             diagUI.Interact(inTrigger);

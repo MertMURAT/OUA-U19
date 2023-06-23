@@ -28,6 +28,8 @@ public class VIDEUIManager1 : MonoBehaviour
     public GameObject playerContainer;
     public GameObject itemPopUp;
 
+    
+
     public Text NPC_Text;
     public Text NPC_label;
     public Image NPCSprite;
@@ -133,11 +135,13 @@ public class VIDEUIManager1 : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.S))
                 {
+                    
                     if (data.commentIndex < currentChoices.Count - 1)
                         data.commentIndex++;
                 }
                 if (Input.GetKeyDown(KeyCode.W))
                 {
+                
                     if (data.commentIndex > 0)
                         data.commentIndex--;
                 }
