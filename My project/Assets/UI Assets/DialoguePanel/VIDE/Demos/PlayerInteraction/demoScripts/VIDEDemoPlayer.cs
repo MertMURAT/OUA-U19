@@ -16,7 +16,7 @@ public class VIDEDemoPlayer : MonoBehaviour
 
 
     //Stored current VA when inside a trigger
-    public VIDE_Assign inTrigger;
+    private VIDE_Assign inTrigger;
 
     //DEMO variables for item inventory
     //Crazy cap NPC in the demo has items you can collect

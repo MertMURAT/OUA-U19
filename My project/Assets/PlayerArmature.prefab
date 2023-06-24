@@ -3605,6 +3605,7 @@ GameObject:
   - component: {fileID: 2951737920998753444}
   - component: {fileID: 8698876902573830696}
   - component: {fileID: 4906321429925310040}
+  - component: {fileID: 1480220529}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -3846,6 +3847,30 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1480220529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906321429925310036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724c581402efcfe4ea820123fa9c998e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: "\xC7ikita Muz"
+  diagUI: {fileID: 0}
+  questUI: {fileID: 0}
+  blue: {fileID: 1854705831868116628}
+  inTrigger: {fileID: 0}
+  demo_Items:
+  - Teddy Bear
+  - Rocket Launcher
+  - Ridiculously Pointy Needle
+  - Shy Penguin
+  - Emerald Sword
+  demo_ItemInventory: []
 --- !u!1 &4954695788376242471
 GameObject:
   m_ObjectHideFlags: 0
@@ -6413,7 +6438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8744534200024655762
 Transform:
   m_ObjectHideFlags: 0

@@ -928,7 +928,7 @@ namespace VIDE_Data
                         if (spriteNames.Contains(name))
                             diags[currentDiag].playerNodes[i].comment[ii].sprites = sprites[spriteNames.IndexOf(name)];
                         else if (name != "")
-                            Debug.LogError("'" + name + "' not found in any Resources folder!");
+                            Debug.Log("'" + name + "' not found in any Resources folder!");
                     }
 
                     if (dict.ContainsKey("pd_" + i.ToString() + "_com_" + ii.ToString() + "audio"))
