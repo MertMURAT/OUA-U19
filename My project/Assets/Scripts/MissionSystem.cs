@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using StarterAssets;
 
 public class MissionSystem : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class MissionSystem : MonoBehaviour
     public GameObject FindNovoraCheck, HealSunflowerCheck;
     public int HealSunflowerCount = 0;
 
+    ThirdPersonController controller;
+    public GameObject player;
+    private Animator anim;
+    
 
     private void Awake()
     {
@@ -20,6 +25,8 @@ public class MissionSystem : MonoBehaviour
 
     private void Start()
     {
+        anim = player.GetComponent<Animator>();
+        controller = player.GetComponent<ThirdPersonController>();
         HealSunflowerText.text = " Heal Sunflower " + HealSunflowerCount.ToString() + " / 10";
     }
 
@@ -29,6 +36,7 @@ public class MissionSystem : MonoBehaviour
         FindNovoraGO.SetActive(true);
         //Haritada işaretle
         //Tablette göster
+        //NPC ile etkileşimi kapat
     }
 
     public void End_FindNovora()
@@ -36,12 +44,11 @@ public class MissionSystem : MonoBehaviour
         FindNovoraText.GetComponent<TMP_Text>().color = Color.green;
         FindNovoraCheck.SetActive(true);
         //tablette tamamla
-        //NPC ile etkileşimi kapat
     }
     #endregion
 
     #region Mission-2 Heal Sunflower
-    public void HealSunflower()
+    public void Start_HealSunflower()
     {
         HealSunflowerGO.SetActive(true);
         //Haritada işaretle
@@ -66,4 +73,19 @@ public class MissionSystem : MonoBehaviour
         }
     }
 #endregion
+    
+
+    public void DisableInput()
+    {
+        controller.enabled = false;
+        anim.enabled = false;
+    }
+    public void EnableInput()
+    {
+        controller.enabled = true;
+        anim.enabled = true;
+    }
+
+
+
 }
