@@ -16,7 +16,7 @@ Takım Unity 19 - Team MABIS
 Symphocycle
 
 ## Product Backlog URL
-https://miro.com/app/board/uXjVMBtuo7I=/
+https://miro.com/welcomeonboard/OEhwVTJwSTlSNTl1TjlFRUtPUUt0Y3pnbXhTSENZcUo4aGJvZmo2aFk0NXdYMmI2THMxbWlWb0N2SVJzQUtPUXwzNDU4NzY0NTU2MjkyNzk1MzgzfDI=?share_link_id=713658326838
 
 ## Ürün Açıklaması
 
