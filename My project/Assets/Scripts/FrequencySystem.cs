@@ -8,13 +8,17 @@ public class FrequencySystem : MonoBehaviour
 {
     public Slider slider;
     public TMP_Text text;
-    public Transform cam;
     public GameObject OldObject;
     public GameObject NewObject;
     public GameObject particle;
     public bool isChanged = false;
 
-
+    private void Start()
+    {
+        slider.maxValue = Random.Range(250, 500);
+        slider.value = Random.Range(0, slider.maxValue);
+        text.text = slider.value.ToString() + " / " + slider.maxValue.ToString();
+    }
 
     private void OnTriggerStay(Collider other)
     {
@@ -43,6 +47,7 @@ public class FrequencySystem : MonoBehaviour
                 particle.SetActive(true);
                 Destroy(particle, 2f);
                 isChanged = true;
+                MissionSystem.instance.AdvanceHealSunflower();
             }
 
         }
@@ -52,11 +57,6 @@ public class FrequencySystem : MonoBehaviour
     {
         slider.value++;
         text.text = slider.value.ToString() + " / " +  slider.maxValue.ToString();
-    }
-
-    private void LateUpdate()
-    {
-        transform.LookAt(transform.position + cam.forward);
     }
 
 }

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - TAZOFX
+  - WrongPlatform
+  - WrongBox
   layers:
   - Default
   - TransparentFX
@@ -36,8 +39,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - MinimapRender
+  - MapRender
   m_SortingLayers:
   - name: Default
     uniqueID: 0
