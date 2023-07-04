@@ -1,0 +1,248 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: Laura
+---------------------------------
+#NODEID#
+1
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Selam, Laura.
+#COMMENT#
+yemek?
+#COMMENT#
+Neredeyim ben?
+---------------------------------
+#NODEID#
+3
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Ben Avatarım. Hepsini biliyorum.
+#COMMENT#
+Sadece tahmin ettim.
+#COMMENT#
+Senin kim olduğunu her zaman biliyordum, Laura.
+---------------------------------
+#NODEID#
+9
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Aslında bende aynı şeyi sana sormak istiyordum...
+#COMMENT#
+Hiçbir fikrim yok ama harika bir yer.
+---------------------------------
+#NODEID#
+10
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Teşekkürler!
+#COMMENT#
+Her neyse, gitmeliyim...
+---------------------------------
+#NODEID#
+14
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Senin kadar değil?
+#COMMENT#
+Nerede olduğumuzu biliyor musun?
+---------------------------------
+#NODEID#
+15
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+"Her zaman"? Ne zamandır buradasın?
+#COMMENT#
+Eve gitmek istiyorum...
+---------------------------------
+#NODEID#
+18
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Ne?! Oh hayır...
+#COMMENT#
+Tamam hoşçakal.
+---------------------------------
+#NODEID#
+20
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Bilmiyorum...
+#COMMENT#
+Eve gitmek istiyorum...
+---------------------------------
+#NODEID#
+0
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Merhaba!
+---------------------------------
+#NODEID#
+2
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Aman tanrım adımı nereden biliyorsun?
+---------------------------------
+#NODEID#
+4
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Doğru...
+#COMMENT#
+Bu yüzden...
+#COMMENT#
+Nerede olduğumuzu biliyor musun?
+---------------------------------
+#NODEID#
+5
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+İyi tahmin o zaman!
+---------------------------------
+#NODEID#
+6
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Tanrım, dur!
+#COMMENT#
+Çekip git!
+---------------------------------
+#NODEID#
+7
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Senin kadar değil?
+---------------------------------
+#NODEID#
+8
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Hep aynı şeyi merak etmişimdir...
+---------------------------------
+#NODEID#
+11
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Tamam. Görüşürüz.
+---------------------------------
+#NODEID#
+12
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Charlie is the oldest here. He might know.
+---------------------------------
+#NODEID#
+16
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Burası artık senin evin.
+---------------------------------
+#NODEID#
+17
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Eh.. yaklaşık 20.000 yıl.
+---------------------------------
+#NODEID#
+19
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Ah hayır, ne?
+---------------------------------
+#NODEID#
+13
+#TAG#
+Laura
+#ISPLAYER#
+False
+---
+#COMMENT#
+Eveeeeeeeeet...
+#COMMENT#
+Görüşürüz!
+---------------------------------
+#END#

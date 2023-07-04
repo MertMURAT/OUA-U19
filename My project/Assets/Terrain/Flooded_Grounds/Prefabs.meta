@@ -1,9 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:My project/Assets/Animation.meta
+guid: 7d723f395a1d897469f12dcfaa0f10f2
+folderAsset: yes
+========
 guid: 4bd36e038f7e7884baea499e908b3aa6
 folderAsset: yes
 timeCreated: 1427223965
 licenseType: Store
+>>>>>>>> main-prod2:My project/Assets/Terrain/Flooded_Grounds/Prefabs.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

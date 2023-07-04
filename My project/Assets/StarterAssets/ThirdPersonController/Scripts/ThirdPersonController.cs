@@ -113,6 +113,9 @@ namespace StarterAssets
 
         private bool _hasAnimator;
 
+        public GameObject frequencyEffect;
+
+
         private bool IsCurrentDeviceMouse
         {
             get
@@ -392,6 +395,26 @@ namespace StarterAssets
             {
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
+        }
+
+        public void AnimateChangeFrequency()
+        {
+            if (_hasAnimator)
+            {
+                if (Input.GetKey(KeyCode.F))
+                {
+                    _animator.SetBool("ChangeFrequency", true);
+                    _playerInput.enabled = false;
+                    frequencyEffect.SetActive(true);
+                }
+            }
+        }
+
+        public void StopFrequencyAnimate()
+        {
+            _animator.SetBool("ChangeFrequency", false);
+            _playerInput.enabled = true;
+            frequencyEffect.SetActive(false);
         }
     }
 }
