@@ -7,7 +7,7 @@ public class VIDEDemoPlayer : MonoBehaviour
 {
     //This script handles player movement and interaction with other NPC game objects
 
-    public string playerName = "Çikita Muz";
+    public string playerName = "X-37";
 
     //Reference to our diagUI script for quick access
     public VIDEUIManager1 diagUI;
@@ -63,7 +63,6 @@ public class VIDEDemoPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             TryInteract();
-            
         }
 
 /*
