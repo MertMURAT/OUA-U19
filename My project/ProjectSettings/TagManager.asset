@@ -8,6 +8,7 @@ TagManager:
   - TAZOFX
   - WrongPlatform
   - WrongBox
+  - NPC1
   layers:
   - Default
   - TransparentFX
