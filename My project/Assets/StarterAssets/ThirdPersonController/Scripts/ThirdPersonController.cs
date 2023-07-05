@@ -416,5 +416,6 @@ namespace StarterAssets
             _playerInput.enabled = true;
             frequencyEffect.SetActive(false);
         }
+
     }
 }
