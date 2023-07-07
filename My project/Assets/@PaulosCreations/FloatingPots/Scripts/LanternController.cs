@@ -7,7 +7,7 @@ public class LanternController : MonoBehaviour
     public bool lightsEnabledOnStart;
 
     private Light myLight;
-    private ParticleSystem myParticles;
+    //private ParticleSystem myParticles;
     private bool lightOn, flickerLight;
     private float wantedLightIntencity;
     private Coroutine animateLights;
@@ -16,7 +16,7 @@ public class LanternController : MonoBehaviour
     void Start()
     {
         myLight = GetComponentInChildren<Light>();
-        myParticles = GetComponentInChildren<ParticleSystem>();     
+        //myParticles = GetComponentInChildren<ParticleSystem>();     
 
         if (lightsEnabledOnStart)
             ToggleLight();
@@ -53,7 +53,7 @@ public class LanternController : MonoBehaviour
         lightOn = !lightOn;
         if (lightOn)
         {
-            myParticles.Play();
+            //myParticles.Play();
             myLight.enabled = true;
             animateLights = StartCoroutine(FlickerLight());
             flickerLight = true;
@@ -62,7 +62,7 @@ public class LanternController : MonoBehaviour
         {
             StopCoroutine(animateLights);
             wantedLightIntencity = 0;
-            myParticles.Stop();
+            //myParticles.Stop();
         }
     }
 }
