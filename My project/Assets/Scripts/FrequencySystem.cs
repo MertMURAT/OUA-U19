@@ -22,7 +22,7 @@ public class FrequencySystem : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-
+        Debug.Log("OnTriggerStay");
         if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.F) && ThirdPersonController.instance.Grounded == true && !isChanged)
         {
             if (slider.value < slider.maxValue)
@@ -34,20 +34,34 @@ public class FrequencySystem : MonoBehaviour
             {
                 ThirdPersonController.instance.StopFrequencyAnimate();
             }
-            
         }
         else
         {
-            ThirdPersonController.instance.StopFrequencyAnimate();
-         
-            if (slider.value == slider.maxValue && !isChanged)
+            if (MissionSystem.instance.chapter1End == false && MissionSystem.instance.chapter2End == false)
             {
-                OldObject.SetActive(false);
-                NewObject.SetActive(true);
-                particle.SetActive(true);
-                Destroy(particle, 2f);
-                isChanged = true;
-                MissionSystem.instance.AdvanceHealSunflower();
+                ThirdPersonController.instance.StopFrequencyAnimate();
+
+                if (slider.value == slider.maxValue && !isChanged)
+                {
+                    OldObject.SetActive(false);
+                    NewObject.SetActive(true);
+                    particle.SetActive(true);
+                    Destroy(particle, 2f);
+                    isChanged = true;
+                    MissionSystem.instance.AdvanceHealSunflower();
+                }
+            }
+            else if (MissionSystem.instance.chapter1End == true && MissionSystem.instance.chapter2End == false)
+            {
+                ThirdPersonController.instance.StopFrequencyAnimate();
+
+                if (slider.value == slider.maxValue && !isChanged)
+                {
+                    particle.SetActive(true);
+                    Destroy(particle, 2f);
+                    isChanged = true;
+                    MissionSystem.instance.AdvanceHealAnimals();
+                }
             }
 
         }

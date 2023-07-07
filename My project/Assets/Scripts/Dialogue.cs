@@ -10,4 +10,7 @@ public class Dialogue
     [TextArea(1, 5)]
     public string[] sentences;
 
+    [TextArea(1, 5)]
+    public string[] secondSentences;
+
 }

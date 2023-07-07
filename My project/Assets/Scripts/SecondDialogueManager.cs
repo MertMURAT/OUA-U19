@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.InputSystem;
 
-public class DialogueManager : MonoBehaviour
+public class SecondDialogueManager : MonoBehaviour
 {
     public TMP_Text nameText;
     public TMP_Text dialogueText;
@@ -39,7 +39,7 @@ public class DialogueManager : MonoBehaviour
 
         nameText.text = dialogue.name;
 
-        foreach (string sentence in dialogue.sentences)
+        foreach (string sentence in dialogue.secondSentences)
         {
             sentences.Enqueue(sentence);
         }
@@ -51,13 +51,13 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-            if (sentences.Count == 0)
-            {
-                EndDialogue();
-                return;
-            }
+        if (sentences.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
 
-            string sentence = sentences.Dequeue();
+        string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
