@@ -17,6 +17,7 @@ Symphocycle
 
 ## Product Backlog URL
 https://miro.com/app/board/uXjVMBtuo7I=/
+https://miro.com/welcomeonboard/OEhwVTJwSTlSNTl1TjlFRUtPUUt0Y3pnbXhTSENZcUo4aGJvZmo2aFk0NXdYMmI2THMxbWlWb0N2SVJzQUtPUXwzNDU4NzY0NTU2MjkyNzk1MzgzfDI=?share_link_id=713658326838
 
 ## Ürün Açıklaması
 
@@ -56,12 +57,17 @@ Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tas
 
 ## - Ürün Durumu: [Youtube Video](https://youtu.be/fROobGDxlrE)
 
-![Ekran görüntüsü 2023-06-19 010043](https://github.com/MertMURAT/OUA-U19/assets/129547499/0f448f6f-65d3-4197-81d0-8211f3a2c087)
-![Ekran görüntüsü 2023-06-19 005851](https://github.com/MertMURAT/OUA-U19/assets/129547499/10a0953c-d8d5-4828-aa40-9018de29fb6b)
-![Ekran görüntüsü 2023-06-19 005910](https://github.com/MertMURAT/OUA-U19/assets/129547499/f6894660-fe8a-4bef-b3ad-3c73309ff157)
+
+https://i.hizliresim.com/14v39wo.png
 
 
-![U19-Test1](https://github.com/MertMURAT/OUA-U19/assets/58560920/4486ef26-cd09-4953-b29e-393d201e1527)
+https://i.hizliresim.com/ldt8e5k.png
+
+
+https://i.hizliresim.com/t28fz8e.png
+
+
+
 
 
 - Sprint Review: Oyun hikayesine karar verildi. Oyunun temasına uygun konsept çalışmalar yapıldı. Karakter kontrolleri, modeli, animasyonları yapıldı. Ana harita terraini oluşturuldu, ağaç ve çimenler eklendi. UI kısmında minimap, pause menu(tablet) tasarlandı ve işlevsel hale getirildi.
@@ -80,27 +86,29 @@ Dosya boyutundan dolayı asset yüklemekte sıkıntı yaşadık oynanış ve tas
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- Sprint içinde tamamlanması tahmin edilen puan: 91 Puan
 
-- **Daily Scrum**:
+- Puan tamamlama mantığı: Fibonacci Serisi (1-2-3-5-8-13 Sayıları) üzerinden yapılan işlere göre takım içinde puanlama sistemi kurduk. Toplam iş bölümü ve takım puanlamalarına göre yaklaşık 91 puan alınması öngörülmüştür.
 
-- **Sprint board update**: Sprint board screenshotları: 
+- Daily Scrum: Takım içinde iletişimi Whatsapp ve Discord üzerinden sağlıyoruz. Her gün hem sesli hem mesaj ile iletişim halindeyiz. Haftanın 5 günü 20:00 ile 22:00 arasında Discord üzerinden ekran paylaşımı yaparak toplantı yapıyoruz.
 
+- Sprint board update: Sprint board screenshotları: ![Unity U-19 Team (Sprint 2)](https://github.com/MertMURAT/OUA-U19/assets/129547499/7caa163d-e5c6-447f-a5ce-302248996f66)
 
-
-- **Ürün Durumu**: Ekran görüntüleri:
+- Ürün Durumu: 
+Video: https://www.youtube.com/watch?v=fZ_L_wyAgT0
+Ekran görüntüleri: https://i.hizliresim.com/37aebuh.png
+https://i.hizliresim.com/6roal1b.png
+https://i.hizliresim.com/iv9ouiz.png
  
-- **Sprint Review**: 
+- Sprint Review: Oyunun görev odağında ilerlenmesi kararlaştırıldı. Görev sistemi geliştirildi ve ilk iki görev belirlendi ve yapıldı. Ana mekanik olan frekans ayarlama yapıldı. Görevler arası puzzle mekanikleri geliştirildi. Terrain üzerinde genel iyileştirilmeler yapıldı. 
 
-
-- **Sprint Retrospective:**
-
-
+- Sprint Retrospective: Gameplay'i daha eğlenceli yapacak mekanikler, puzzle'lar ve vfx'ler eklenmeli.
 
 ---
 
 ## Product Backlog URL
-
+https://miro.com/app/board/uXjVMBtuo7I=/
+https://miro.com/welcomeonboard/OEhwVTJwSTlSNTl1TjlFRUtPUUt0Y3pnbXhTSENZcUo4aGJvZmo2aFk0NXdYMmI2THMxbWlWb0N2SVJzQUtPUXwzNDU4NzY0NTU2MjkyNzk1MzgzfDI=?share_link_id=713658326838
 
 ---
 
