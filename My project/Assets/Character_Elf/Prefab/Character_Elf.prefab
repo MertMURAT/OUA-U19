@@ -251,6 +251,7 @@ MonoBehaviour:
   input: {fileID: 0}
   isSunflowerCompleted: 0
   isAnimalsCompleted: 0
+  startDialogue: 0
 --- !u!1 &1103208023307964
 GameObject:
   m_ObjectHideFlags: 0

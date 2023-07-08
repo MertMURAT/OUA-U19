@@ -29,7 +29,7 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        if (dialogue.name == "  " && !startDialogue)
+        if (dialogue.name == "Kuesa" && !startDialogue)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOVORA, MissionSystem.MissionStatus.ONGOING);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
@@ -37,7 +37,6 @@ public class DialogueTrigger : MonoBehaviour
             Debug.Log("Start dialogue");
             startDialogue = true;
         }
-
 
         if (dialogue.name == "Novora" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_NOVORA) == MissionSystem.MissionStatus.ONGOING)
         {
@@ -67,18 +66,32 @@ public class DialogueTrigger : MonoBehaviour
             input.enabled = false;
             Debug.Log("Grimnir's second dialogue");
         }
-    }
+        else if (dialogue.name == "Nolf" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_NOLF) == MissionSystem.MissionStatus.ONGOING)
+        {
+            MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOLF, MissionSystem.MissionStatus.COMPLETED);
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            input.enabled = false;
+            Debug.Log("Nolf's dialogue");
+        }
+        else if (dialogue.name == "Uten" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_UTEN) == MissionSystem.MissionStatus.ONGOING)
+        {
+            MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_UTEN, MissionSystem.MissionStatus.COMPLETED);
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            input.enabled = false;
+            Debug.Log("Uten's dialogue");
+        }
+        else if (dialogue.name == "Highin" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_HIGHIN) == MissionSystem.MissionStatus.ONGOING)
+        {
+            MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_HIGHIN, MissionSystem.MissionStatus.COMPLETED);
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            input.enabled = false;
+            Debug.Log("Highin's dialogue");
+        }
 
-        
 
-    public void EnableCollider()
-    {
-        this.gameObject.GetComponent<BoxCollider>().enabled = true;
-    }
 
-    public void DisableCollider()
-    {
-        this.gameObject.GetComponent<BoxCollider>().enabled = false;
+
+
 
     }
 }

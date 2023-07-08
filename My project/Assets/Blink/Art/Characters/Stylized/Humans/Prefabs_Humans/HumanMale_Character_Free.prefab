@@ -2503,42 +2503,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Novora
-    sentences:
-    - 'Novora: Wow, I haven''t seen a working X series robot in years.'
-    - 'X-37 :  Hello, where am I? I think there is a problem with my memory card,
-      all my data has been erased.'
-    - 'Novora: Hello, I am Novora, we are now on Earth, the year is 2148.'
-    - 'X-37 : Earth!!??? Earth was not such a place as I remember it,'
-    - 'X-37: but still the environmental state of the Earth was quite worrying.'
-    - 'X-37: I need some information about the harm that humans cause to nature.'
-    - 'Novora: It seems that your energy circuits have been closed for many years.'
-    - 'Novora: Yes, unfortunately the environmental situation of the Earth poses
-      a rather serious problem.'
-    - 'Novora: Ecosystems have been severely damaged as a result of human misapplications
-      in the past and their tendency to exploit nature.'
-    - 'Novora: As a result, a number of problems have emerged such as climate change,'
-    - 'Novora: habitat destruction, water pollution, soil erosion and biodiversity
-      loss.'
-    - 'X-37 : How could people do this evil to themselves...'
-    - 'Novora: We didn''t appreciate what we had.. and we killed nature..'
-    - 'Novora: I am one of the few people who stay here, are trying to get the Earth
-      back to its good old days.'
-    - 'Novora: However, our efforts are not enough, we cannot grow efficient crops
-      due to the high radiation on Earth.'
-    - 'X-37 :  Is there anything I can do to resolve this situation?'
-    - 'Novora: Can you measure the sunflowers in my garden and bring the frequency
-      to the required value?'
-    - 'X-37 : Of course! I can help you and the Earth.'
-    secondSentences:
-    - 'Novora: Great!! Thanks a lot for your help!!!'
-    - 'X-37: You''re welcome! It''s nothing for me.'
-    - 'x-37: Is there anything else I can help with?'
-    - 'Novora: Actually, yes. My friend Grimnir on the west farm may need your help.'
-    - 'X-37: Of course I can help. I hope to see you again.'
+    name: Highin
+    sentences: []
+    secondSentences: []
   input: {fileID: 0}
   isSunflowerCompleted: 0
   isAnimalsCompleted: 0
+  startDialogue: 0
 --- !u!1 &4957605393584318338
 GameObject:
   m_ObjectHideFlags: 0
