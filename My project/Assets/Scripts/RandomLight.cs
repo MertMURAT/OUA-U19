@@ -10,7 +10,7 @@ public class RandomLight : MonoBehaviour
     //public GameObject redLight;
     public GameObject puzzlleCheck;
     public GameObject[] objects;
-    private int currentIndex = 0;
+    //private int currentIndex = 0;
     public bool lightsOn = false ,check=false;
    
 

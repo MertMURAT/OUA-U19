@@ -131,7 +131,7 @@ public class MissionSystem : MonoBehaviour
     public void AdvanceHealAnimals()
     {
         HealAnimalsCount++;
-        HealAnimalsText.text = " Heal Animals " + HealAnimalsCount.ToString() + " / 10";
+        HealAnimalsText.text = " Heal Rabbits " + HealAnimalsCount.ToString() + " / 10";
         if (HealAnimalsCount == 1)
         {
             End_HealAnimals();

@@ -136,6 +136,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4081129071478060}
   - component: {fileID: 95663668927121952}
+  - component: {fileID: 1360085282}
+  - component: {fileID: 1360085281}
+  - component: {fileID: 1360085280}
   m_Layer: 0
   m_Name: Character_Elf
   m_TagString: Untagged
@@ -170,7 +173,7 @@ Animator:
   m_GameObject: {fileID: 1067053214699150}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8909e7aa923862f4abbfd053c0f0088e, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e3fef3b6b07f9dd459fe937156d0c85e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -180,6 +183,74 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!136 &1360085282
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067053214699150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.39
+  m_Height: 2.94
+  m_Direction: 1
+  m_Center: {x: -0.003818512, y: 0.8551936, z: -0.16561127}
+--- !u!65 &1360085281
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067053214699150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0813293, y: 2.2741919, z: 1.5185089}
+  m_Center: {x: -0.16325378, y: 0.6370959, z: 0.02179718}
+--- !u!114 &1360085280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067053214699150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f278018f3893fc429afd126e007e633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Grimnir
+    sentences:
+    - 'Grimnir: Who are you!!??'
+    - 'X-37: Don''t be afraid, I won''t hurt you.'
+    - 'x-37: Your friend Novora guided me to help you.'
+    - 'Grimnir: Really? I am pleased to hear that.'
+    - 'X-37: What can I help you with?'
+    - 'Grimnir: My rabbits...'
+    - 'Grimnir: My rabbits are very sick.'
+    - 'Grimnir: They carry some kind of illness from radiation, which I don''t know
+      what it is.'
+    - 'X-37: With your permission, I will check your rabbits. Maybe I can find a
+      solution.'
+    - 'Grimnir: I hope you can figure it out.'
+    secondSentences:
+    - 'Grimnir: I can''t believe it!! My rabbits look healthy than before.'
+    - 'X-37: I''m sure they''ll get better with time.'
+    - 'Grimnir: Thank you very much. Glad you came. I will never forget this favor.'
+    - 'Grimnir: I live in the northern town of Tehic.'
+    - 'Grimnir: But its air and surroundings are so polluted that it is not possible
+      to sustain life,'
+    - 'Grimnir: I take care of my rabbits in my home here to get some fresh air.'
+    - 'Grimnir: I miss our old days so much. I wish I could get it back to the way
+      it was.'
+    - 'Grimnir: Well, I guess I bothered you too with my story. Thank you again.'
+  input: {fileID: 0}
+  isSunflowerCompleted: 0
+  isAnimalsCompleted: 0
 --- !u!1 &1103208023307964
 GameObject:
   m_ObjectHideFlags: 0

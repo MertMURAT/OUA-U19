@@ -12,6 +12,7 @@ public class DialogueTrigger : MonoBehaviour
     public PlayerInput input;
     public bool isSunflowerCompleted = false;
     public bool isAnimalsCompleted = false;
+    public bool startDialogue = false;
 
     private void Awake()
     {
@@ -28,12 +29,13 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        if (dialogue.name == "  ")
+        if (dialogue.name == "  " && !startDialogue)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOVORA, MissionSystem.MissionStatus.ONGOING);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
             Debug.Log("Start dialogue");
+            startDialogue = true;
         }
 
 
