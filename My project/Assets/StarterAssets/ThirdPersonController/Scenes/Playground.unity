@@ -5214,7 +5214,7 @@ Transform:
   - {fileID: 1181759979}
   - {fileID: 1376947802}
   - {fileID: 1360085279}
-  - {fileID: 3422348692974262210}
+  - {fileID: 2014750892}
   - {fileID: 755726959}
   - {fileID: 1388738846}
   - {fileID: 624518577}
@@ -17589,7 +17589,11 @@ PrefabInstance:
     - target: {fileID: 7491744362009140829, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: 2255221d850daf642981c1a4eedf85a1, type: 3}
+      objectReference: {fileID: 9000000, guid: 067eed6340abfa94383b955a0cb27fad, type: 3}
+    - target: {fileID: 7491744362009140829, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
     - target: {fileID: 7726325505321076126, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
       propertyPath: m_Name
       value: Novora
@@ -20585,7 +20589,11 @@ PrefabInstance:
     - target: {fileID: 5765577306158305185, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: 2255221d850daf642981c1a4eedf85a1, type: 3}
+      objectReference: {fileID: 9000000, guid: 067eed6340abfa94383b955a0cb27fad, type: 3}
+    - target: {fileID: 5765577306158305185, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
     - target: {fileID: 6307796496176500440, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -21925,6 +21933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95000013231271488, guid: c72269396f82e214b9e099c930c36173, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
     - target: {fileID: 2699339435215494274, guid: c72269396f82e214b9e099c930c36173, type: 3}
       propertyPath: input
       value: 
@@ -22272,6 +22284,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4957605393579145647, guid: 4f46098734d87e24490aef9267915ad2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f46098734d87e24490aef9267915ad2, type: 3}
 --- !u!1 &1301995650
@@ -29001,6 +29017,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685608204}
   m_CullTransparentMesh: 1
+--- !u!1001 &1686960494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 390761297}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 396.47
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.58
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 143.76373
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+      propertyPath: m_Name
+      value: Nolf
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
 --- !u!1 &1688655988
 GameObject:
   m_ObjectHideFlags: 0
@@ -33942,6 +34015,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995553293}
   m_CullTransparentMesh: 1
+--- !u!1 &2014750891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+  m_PrefabInstance: {fileID: 1686960494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2014750892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+  m_PrefabInstance: {fileID: 1686960494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2014750893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014750891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f278018f3893fc429afd126e007e633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Nolf
+    sentences:
+    - 'X-37: Hello! Grimnir, who lived on the farm to the west, described this town.'
+    - 'X-37: I''ve heard terrible things about the town.'
+    - 'X-37: The environment is really as dirty as they say...'
+    - 'Nolf: Hello! Yes, there is so much waste that we cannot prevent this pollution.'
+    - 'X-37: I came to help you.'
+    - 'Nolf: Great! We really needed the help of a robot.'
+    - 'Nolf: You can recycle at the factory in the east area by collecting the garbage
+      around.'
+    - 'Nolf: But as far as I remember, this process could not be done because there
+      was no electricity in the factory.'
+    - 'Nolf: After collecting the waste, you can try to fix the solar panels.'
+    - 'Nolf: This way you can recycle the waste.'
+    - 'X-37: I get to work without wasting any time.'
+    secondSentences: []
+  input: {fileID: 1113957302}
+  isSunflowerCompleted: 0
+  isAnimalsCompleted: 0
+  startDialogue: 0
+--- !u!65 &2014750894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014750891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0813293, y: 2.2741919, z: 1.5185089}
+  m_Center: {x: -0.16325378, y: 0.6370959, z: 0.02179718}
+--- !u!136 &2014750895
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014750891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.39
+  m_Height: 2.94
+  m_Direction: 1
+  m_Center: {x: -0.003818512, y: 0.8551936, z: -0.16561127}
+--- !u!95 &2014750896
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014750891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 84d0fcb1afbcdee46a0c96fdca0b638a, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2018370562
 GameObject:
   m_ObjectHideFlags: 0
@@ -35833,6 +35996,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95663668927121952, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
 --- !u!1 &2095637359
@@ -36873,19 +37040,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146626371}
   m_CullTransparentMesh: 1
---- !u!65 &2080747203801799703
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2609115444861242744}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0813293, y: 2.2741919, z: 1.5185089}
-  m_Center: {x: -0.16325378, y: 0.6370959, z: 0.02179718}
 --- !u!1 &2114283753834967212
 GameObject:
   m_ObjectHideFlags: 0
@@ -37052,26 +37206,6 @@ Transform:
   m_Father: {fileID: 747126189}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -52.817, z: 0}
---- !u!1 &2609115444861242744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3422348692974262210}
-  - component: {fileID: 8763596769138118072}
-  - component: {fileID: 4184785355514580526}
-  - component: {fileID: 2080747203801799703}
-  - component: {fileID: 4870045091451366732}
-  m_Layer: 0
-  m_Name: Nolf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &2611776522965875212
 GameObject:
   m_ObjectHideFlags: 0
@@ -37201,221 +37335,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!4 &3422348692974262210
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2609115444861242744}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 398.59, y: 13.95, z: 143.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 390761297}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &4184785355514580526
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2609115444861242744}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.39
-  m_Height: 2.94
-  m_Direction: 1
-  m_Center: {x: -0.003818512, y: 0.8551936, z: -0.16561127}
---- !u!114 &4870045091451366732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2609115444861242744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f278018f3893fc429afd126e007e633, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Nolf
-    sentences:
-    - 'X-37: Hello! Grimnir, who lived on the farm to the west, described this town.'
-    - 'X-37: I''ve heard terrible things about the town.'
-    - 'X-37: The environment is really as dirty as they say...'
-    - 'Nolf: Hello! Yes, there is so much waste that we cannot prevent this pollution.'
-    - 'X-37: I came to help you.'
-    - 'Nolf: Great! We really needed the help of a robot.'
-    - 'Nolf: You can recycle at the factory in the east area by collecting the garbage
-      around.'
-    - 'Nolf: But as far as I remember, this process could not be done because there
-      was no electricity in the factory.'
-    - 'Nolf: After collecting the waste, you can try to fix the solar panels.'
-    - 'Nolf: This way you can recycle the waste.'
-    - 'X-37: I get to work without wasting any time.'
-    secondSentences: []
-  input: {fileID: 1113957302}
-  isSunflowerCompleted: 0
-  isAnimalsCompleted: 0
-  startDialogue: 0
---- !u!95 &8763596769138118072
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2609115444861242744}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 217c1eb563732644586c300ff94ae8ef, type: 3}
-  m_Controller: {fileID: 9100000, guid: ef6403663453e6a4cb106814a81e72b4, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: '
-
-    Transform ''c_skull_01.x'' has been deleted
-
-    Transform
-    ''c_skull_02.x'' has been deleted
-
-    Transform ''head.x'' has been deleted
-
-    Transform
-    ''neck.x'' has been deleted
-
-    Transform ''index2.l'' has been deleted
-
-    Transform
-    ''index1.l'' has been deleted
-
-    Transform ''index1_base.l'' has been deleted
-
-    Transform
-    ''middle2.l'' has been deleted
-
-    Transform ''middle1.l'' has been deleted
-
-    Transform
-    ''middle1_base.l'' has been deleted
-
-    Transform ''pinky2.l'' has been deleted
-
-    Transform
-    ''pinky1.l'' has been deleted
-
-    Transform ''pinky1_base.l'' has been deleted
-
-    Transform
-    ''ring2.l'' has been deleted
-
-    Transform ''ring1.l'' has been deleted
-
-    Transform
-    ''ring1_base.l'' has been deleted
-
-    Transform ''thumb3.l'' has been deleted
-
-    Transform
-    ''thumb2.l'' has been deleted
-
-    Transform ''thumb1.l'' has been deleted
-
-    Transform
-    ''hand.l'' has been deleted
-
-    Transform ''forearm_stretch.l'' has been deleted
-
-    Transform
-    ''arm_stretch.l'' has been deleted
-
-    Transform ''shoulder.l'' has been deleted
-
-    Transform
-    ''index2.r'' has been deleted
-
-    Transform ''index1.r'' has been deleted
-
-    Transform
-    ''index1_base.r'' has been deleted
-
-    Transform ''middle2.r'' has been deleted
-
-    Transform
-    ''middle1.r'' has been deleted
-
-    Transform ''middle1_base.r'' has been deleted
-
-    Transform
-    ''pinky2.r'' has been deleted
-
-    Transform ''pinky1.r'' has been deleted
-
-    Transform
-    ''pinky1_base.r'' has been deleted
-
-    Transform ''ring2.r'' has been deleted
-
-    Transform
-    ''ring1.r'' has been deleted
-
-    Transform ''ring1_base.r'' has been deleted
-
-    Transform
-    ''thumb3.r'' has been deleted
-
-    Transform ''thumb2.r'' has been deleted
-
-    Transform
-    ''thumb1.r'' has been deleted
-
-    Transform ''hand.r'' has been deleted
-
-    Transform
-    ''forearm_stretch.r'' has been deleted
-
-    Transform ''arm_stretch.r'' has been
-    deleted
-
-    Transform ''shoulder.r'' has been deleted
-
-    Transform ''spine_02.x''
-    has been deleted
-
-    Transform ''spine_01.x'' has been deleted
-
-    Transform
-    ''toes_01.l'' has been deleted
-
-    Transform ''foot.l'' has been deleted
-
-    Transform
-    ''leg_stretch.l'' has been deleted
-
-    Transform ''thigh_stretch.l'' has been
-    deleted
-
-    Transform ''toes_01.r'' has been deleted
-
-    Transform ''foot.r''
-    has been deleted
-
-    Transform ''leg_stretch.r'' has been deleted
-
-    Transform
-    ''thigh_stretch.r'' has been deleted
-
-    Transform ''root.x'' has been deleted
-
-    Transform
-    ''root'' has been deleted'
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
