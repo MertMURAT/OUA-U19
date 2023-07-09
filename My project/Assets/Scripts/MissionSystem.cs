@@ -235,6 +235,7 @@ public class MissionSystem : MonoBehaviour
     {
         CollectWastesCount++;
         CollectWastesText.text = " Collect Wastes " + CollectWastesText.ToString() + " / 10";
+        Debug.Log(CollectWastesCount);
         if (CollectWastesCount == 1)
         {
             End_CollectWastes();

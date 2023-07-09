@@ -13,6 +13,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject missionsPanel;
     public GameObject settingsPanel;
     public PlayerInput playerInput;
+    public GameObject[] chapterPanels;
    
 
     void Update()
@@ -73,5 +74,47 @@ public class UI_Controller : MonoBehaviour
     }
 
 
+    #region Chapter Panels
+    public void ToggleChapterPanel1()
+    {
+        chapterPanels[0].SetActive(true);
+        chapterPanels[1].SetActive(false);
+        chapterPanels[2].SetActive(false);
+        chapterPanels[3].SetActive(false);
+        chapterPanels[4].SetActive(false);
+    }
+    public void ToggleChapterPanel2()
+    {
+        chapterPanels[0].SetActive(false);
+        chapterPanels[1].SetActive(true);
+        chapterPanels[2].SetActive(false);
+        chapterPanels[3].SetActive(false);
+        chapterPanels[4].SetActive(false);
+    }
+    public void ToggleChapterPanel3()
+    {
+        chapterPanels[0].SetActive(false);
+        chapterPanels[1].SetActive(false);
+        chapterPanels[2].SetActive(true);
+        chapterPanels[3].SetActive(false);
+        chapterPanels[4].SetActive(false);
+    }
+    public void ToggleChapterPanel4()
+    {
+        chapterPanels[0].SetActive(false);
+        chapterPanels[1].SetActive(false);
+        chapterPanels[2].SetActive(false);
+        chapterPanels[3].SetActive(true);
+        chapterPanels[4].SetActive(false);
+    }
+    public void ToggleChapterPanel5()
+    {
+        chapterPanels[0].SetActive(false);
+        chapterPanels[1].SetActive(false);
+        chapterPanels[2].SetActive(false);
+        chapterPanels[3].SetActive(false);
+        chapterPanels[4].SetActive(true);
+    }
+    #endregion
 
 }

@@ -17,6 +17,8 @@ TagManager:
   - yellow
   - Platform
   - PlatformButton
+  - Wastes
+  - SolarPanel
   layers:
   - Default
   - TransparentFX

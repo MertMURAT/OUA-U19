@@ -66,6 +66,13 @@ public class DialogueTrigger : MonoBehaviour
             input.enabled = false;
             Debug.Log("Grimnir's second dialogue");
         }
+        else if (dialogue.name == "X-37" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_TOWN) == MissionSystem.MissionStatus.ONGOING)
+        {
+            MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_TOWN, MissionSystem.MissionStatus.COMPLETED);
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            input.enabled = false;
+            Debug.Log("Find Town dialogue");
+        }
         else if (dialogue.name == "Nolf" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_NOLF) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOLF, MissionSystem.MissionStatus.COMPLETED);
