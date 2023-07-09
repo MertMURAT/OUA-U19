@@ -6,7 +6,7 @@ public class LanternController : MonoBehaviour
     public float maxLightIntencity, minLightIntencity;
     public bool lightsEnabledOnStart;
 
-    private Light myLight;
+    public Light myLight;
     //private ParticleSystem myParticles;
     private bool lightOn, flickerLight;
     private float wantedLightIntencity;
@@ -15,9 +15,6 @@ public class LanternController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myLight = GetComponentInChildren<Light>();
-        //myParticles = GetComponentInChildren<ParticleSystem>();     
-
         if (lightsEnabledOnStart)
             ToggleLight();
     }

@@ -4,118 +4,140 @@ using UnityEngine;
 
 public class PuzzlePlatformManager : MonoBehaviour
 {
-    public static PuzzlePlatformManager instance;
-    public RandomLight randmlgt;
-    public Transform plane;
-    
-  
-    public Vector3 initialPos;
-    bool isMoving;
-    public GameObject button, puzzle, triggerCollider;
-    public bool check, check1, check2, check3, check4 = false;
-
-    private void Awake()
-    {
-        instance = this;
-    }
+    public Transform parentObject;
+    private Vector3 startPos;
+    public bool isPushed = false;
+    public float speed;
+    public float maksh = 30f;
+    public bool check1, check2, check3, check4 = false;
+    public bool isSolved = false;
+    public GameObject button;
+    public GameObject puzzle;
+    public GameObject puzzleCheck;
+    public GameObject[] lights;
+    public bool isPuzzleStarted = false;
 
     private void Start()
     {
-        initialPos = plane.transform.position;
+        startPos = parentObject.position;
+    }
+
+    private void FixedUpdate()
+    {
+        if (isPushed)
+        {
+            Up();
+        }
+
+        if (isSolved)
+        {
+            Down();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-
-        if (other.CompareTag("plane"))
+        if (other.CompareTag("Platform") && !isPuzzleStarted)
         {
-            StartCoroutine(MovePlatform());
-            triggerCollider.SetActive(false);
+            isPushed = true;
         }
 
-        if (other.CompareTag("cube"))
+        if (other.CompareTag("PlatformButton"))
         {
             button.SetActive(false);
             puzzle.SetActive(true);
-            randmlgt.ToggleLights();
+            isPuzzleStarted = true;
         }
 
-        if (other.CompareTag("red") && randmlgt.check==true  )
+        if (isPuzzleStarted)
         {
-            check1 = true;       
-        }
-
-        if (other.CompareTag("yellow") && check1 == true)
-        {
-            check2 = true;
-        }
-
-        if (other.CompareTag("blue") && check2 == true)
-        {
-            check3 = true;
-        }
-
-        if (other.CompareTag("green") && check3 == true)
-
-        {
-            check4 = true;
-            randmlgt.puzzlleCheck.SetActive(false);
-            puzzle.SetActive(false);
-            button.SetActive(false);
-          
-            StartCoroutine(StopPlatform());
-        }
-    }
-
-
-      
-
-
-        private IEnumerator MovePlatform()
-         {
-
-            isMoving = true;
-
-            Vector3 targetPosition = plane.transform.position + Vector3.up * 2f;
-            float duration = 10f; // Süre (saniye) - platformun 10 birim yükseðe hareket etmesi için ayarlayabilirsiniz
-            float elapsedTime = 0f;
-
-            while (elapsedTime < duration)
+            if (other.CompareTag("red"))
             {
-                plane.position = Vector3.Lerp(initialPos, targetPosition, elapsedTime / duration);
-                elapsedTime += Time.deltaTime;
-                yield return null;
+                check1 = true;
+                lights[0].SetActive(true);
             }
-
-            // Ýþlem tamamlandýktan sonra, platformun son pozisyonunu düzelt
-            transform.position = targetPosition;
-            isMoving = false;
-            button.SetActive(true);
-
-
-        
-         }
-
-    private IEnumerator StopPlatform()
-    {
-
-        yield return new WaitForSeconds(1f);
-
-       
-        float duration = 0.2f; // Süre (saniye) - platformun 10 birim yükseðe hareket etmesi için ayarlayabilirsiniz
-        float elapsedTime = 0f;
-
-      
-
-        while (elapsedTime <duration)
-        {
-            plane.transform.Translate(Vector3.down * 10 * Time.deltaTime); // Platformu aþaðý hareket ettir
-
-            elapsedTime += Time.deltaTime;
-
-            yield return null; // Bir sonraki frame'e geç
+            else if (other.CompareTag("yellow") && check1)
+            {
+                check2 = true;
+                lights[1].SetActive(true);
+            }
+            else if (other.CompareTag("blue") && check1 && check2)
+            {
+                check3 = true;
+                lights[2].SetActive(true);
+            }
+            else if (other.CompareTag("green") && check1 && check2 && check3)
+            {
+                check4 = true;
+                lights[3].SetActive(true);
+                puzzle.SetActive(false);
+                button.SetActive(false);
+                puzzleCheck.SetActive(false);
+                isSolved = true;
+            }
+            else
+            {
+                ResetLights();
+                ResetBools();
+            }
         }
-
     }
 
+    public void Up()
+    {
+        parentObject.transform.Translate(Vector3.up * speed * Time.deltaTime);
+        if (parentObject.transform.position.y - startPos.y >= maksh)
+        {
+            isPushed = false;
+            button.SetActive(true);
+            StartCoroutine(TurnOnLightsRandomly());
+        }
+    }
+
+    public void Down()
+    {
+        parentObject.transform.Translate(Vector3.down * speed * Time.deltaTime);
+        if (parentObject.transform.position.y == startPos.y)
+        {
+            isSolved = false;
+        }
+    }
+
+    IEnumerator TurnOnLightsRandomly()
+    {
+        yield return new WaitForSeconds(2f);
+        lights[0].SetActive(true);
+        yield return new WaitForSeconds(2f);
+        lights[0].SetActive(false);
+
+        lights[1].SetActive(true);
+        yield return new WaitForSeconds(2f);
+        lights[1].SetActive(false);
+
+        lights[2].SetActive(true);
+        yield return new WaitForSeconds(2f);
+        lights[2].SetActive(false);
+
+        lights[3].SetActive(true);
+        yield return new WaitForSeconds(2f);
+        lights[3].SetActive(false);
+
+        puzzleCheck.SetActive(true);
+    }
+
+    public void ResetLights()
+    {
+        lights[0].SetActive(false);
+        lights[1].SetActive(false);
+        lights[2].SetActive(false);
+        lights[3].SetActive(false);
+    }
+
+    public void ResetBools()
+    {
+        check1 = false;
+        check2 = false;
+        check3 = false;
+        check4 = false;
+    }
 }

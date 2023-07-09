@@ -4,25 +4,20 @@ using UnityEngine;
 
 public class RandomLight : MonoBehaviour
 {
-    //public GameObject greenLight;
-    //public GameObject yellowLight;
-    //public GameObject blueLight;
-    //public GameObject redLight;
+    public static RandomLight instance;
     public GameObject puzzlleCheck;
     public GameObject[] objects;
-    //private int currentIndex = 0;
-    public bool lightsOn = false ,check=false;
-   
+    public bool lightsOn = false;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {
-        // Iþýklarý kapat
-        for (int i = 0; i < objects.Length; i++)
-        {
-            objects[i].SetActive(false);
-        }
-
-       
+        ResetLights();
     }
 
    public void ToggleLights()
@@ -31,16 +26,17 @@ public class RandomLight : MonoBehaviour
         {
             StartCoroutine(TurnOnLightsRandomly());
         }
-
-
-
-
     }
 
+    public void ResetLights()
+    {
+        objects[0].SetActive(false);
+        objects[1].SetActive(false);
+        objects[2].SetActive(false);
+        objects[3].SetActive(false);
+    }
 
-  
-
-    private System.Collections.IEnumerator TurnOnLightsRandomly()
+    IEnumerator TurnOnLightsRandomly()
     {
         lightsOn = true;
 
@@ -77,13 +73,8 @@ public class RandomLight : MonoBehaviour
                     yield return new WaitForSeconds(2f);
                     objects[3].SetActive(false);
                     
-            
-        
-
         lightsOn = false;
         puzzlleCheck.SetActive(true);
-        check = true;
-
     }
 
 
