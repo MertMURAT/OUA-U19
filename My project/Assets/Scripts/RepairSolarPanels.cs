@@ -17,20 +17,27 @@ public class RepairSolarPanels : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.F) && !isChanged)
+        Debug.Log("OnTriggerStay");
+        if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.F) && ThirdPersonController.instance.Grounded == true && !isChanged)
         {
             if (slider.value < slider.maxValue)
             {
                 Repair();
-            }
-            else if (slider.value == slider.maxValue)
-            {
-                isChanged = true;
-                MissionSystem.instance.AdvanceRepairPanels();
+                ThirdPersonController.instance.AnimateRepair();
             }
             else
             {
-                return;
+                ThirdPersonController.instance.StopRepair();
+            }
+        }
+        else
+        {
+            ThirdPersonController.instance.StopRepair();
+
+            if (slider.value == slider.maxValue && !isChanged)
+            {
+                isChanged = true;
+                MissionSystem.instance.AdvanceRepairPanels();
             }
         }
     }

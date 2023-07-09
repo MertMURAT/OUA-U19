@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using StarterAssets;
 
 public class WasteCollect : MonoBehaviour
 {
@@ -9,8 +10,17 @@ public class WasteCollect : MonoBehaviour
     {
         if (other.CompareTag("Wastes") && Input.GetKeyDown(KeyCode.F))
         {
-                Destroy(other.gameObject);
-                MissionSystem.instance.AdvanceCollectWastes();
+            ThirdPersonController.instance.TriggerPickUp();
+            Destroy(other.gameObject, 2f);
+            MissionSystem.instance.AdvanceCollectWastes();
+            StartCoroutine(EnabledInput());
         }
+    }
+
+    IEnumerator EnabledInput()
+    {
+        yield return new WaitForSeconds(2);
+        ThirdPersonController.instance.EnableInput();
+
     }
 }

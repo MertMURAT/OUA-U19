@@ -417,5 +417,35 @@ namespace StarterAssets
             frequencyEffect.SetActive(false);
         }
 
+        public void TriggerPickUp()
+        {
+            if (_hasAnimator)
+            {
+                _animator.SetTrigger("Pickup");
+                _playerInput.enabled = false;
+            }
+        }
+
+        public void EnableInput()
+        {
+            _playerInput.enabled = true;
+        }
+
+
+        public void AnimateRepair()
+        {
+            if (_hasAnimator)
+            {
+                _animator.SetBool("Repair", true);
+                _playerInput.enabled = false;
+            }
+        }
+
+        public void StopRepair()
+        {
+            _animator.SetBool("Repair", false);
+            _playerInput.enabled = true;
+        }
+
     }
 }

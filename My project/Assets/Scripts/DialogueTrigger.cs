@@ -94,6 +94,13 @@ public class DialogueTrigger : MonoBehaviour
             input.enabled = false;
             Debug.Log("Highin's dialogue");
         }
+        else if (dialogue.name == "X-37" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_MONUMENT) == MissionSystem.MissionStatus.ONGOING)
+        {
+            MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_MONUMENT, MissionSystem.MissionStatus.COMPLETED);
+            FindObjectOfType<SecondDialogueManager>().StartDialogue(dialogue);
+            input.enabled = false;
+            Debug.Log("Find Town dialogue");
+        }
 
 
 
