@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1148059723}
   - component: {fileID: 1148059722}
   - component: {fileID: 1148059721}
-  m_Layer: 31
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &1148059721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138298635}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -136,7 +136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2138298638
@@ -3782,8 +3782,10 @@ GameObject:
   - component: {fileID: 2951737920998753444}
   - component: {fileID: 8698876902573830696}
   - component: {fileID: 4906321429925310040}
-  - component: {fileID: 1480220529}
   - component: {fileID: 1480220535}
+  - component: {fileID: 1480220525}
+  - component: {fileID: 1480220527}
+  - component: {fileID: 1480220528}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -4028,29 +4030,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1480220529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4906321429925310036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 724c581402efcfe4ea820123fa9c998e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerName: "\xC7ikita Muz"
-  diagUI: {fileID: 0}
-  questUI: {fileID: 0}
-  blue: {fileID: 1854705831868116628}
-  demo_Items:
-  - Teddy Bear
-  - Rocket Launcher
-  - Ridiculously Pointy Needle
-  - Shy Penguin
-  - Emerald Sword
-  demo_ItemInventory: []
 --- !u!114 &1480220535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4063,9 +4042,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 707a63f3b710f8644ab67f46de093269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brokenGlass: {fileID: 1416045764169021108, guid: 4d4f43e38b1206c4289d297f83ed950e, type: 3}
+  brokenGlass: {fileID: 2877089584797174048, guid: 15e96d023fdf0d0419df70b3bd39f801, type: 3}
   player: {fileID: 4906321429925310036}
   resetPos: {fileID: 0}
+--- !u!114 &1480220525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906321429925310036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ce16b8b061c0446b9af9c1c241e7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentObject: {fileID: 0}
+  isPushed: 0
+  speed: 2
+  maksh: 30
+  check1: 0
+  check2: 0
+  check3: 0
+  check4: 0
+  isSolved: 0
+  button: {fileID: 0}
+  puzzle: {fileID: 0}
+  puzzleCheck: {fileID: 0}
+  lights:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isPuzzleStarted: 0
+--- !u!114 &1480220527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906321429925310036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9d2899414c3264782d75ab0309cc33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1480220528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906321429925310036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4b4faab8de2ec468024ccc92f4d9a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blue: {fileID: 0}
+  green: {fileID: 0}
+  orange: {fileID: 0}
+  red: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &4954695788376242471
 GameObject:
   m_ObjectHideFlags: 0

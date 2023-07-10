@@ -348,8 +348,10 @@ public class MissionSystem : MonoBehaviour
         if (PlaceStonesCount == 4)
         {
             End_PlaceStones();
+            Monument.instance.AnimateMonument();
+            DisableInput();
 
-            /// OYUN BİTİŞİ BURADA
+            //Kamera
         }
     }
 

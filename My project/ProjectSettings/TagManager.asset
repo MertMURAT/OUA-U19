@@ -19,6 +19,12 @@ TagManager:
   - PlatformButton
   - Wastes
   - SolarPanel
+  - MonumentSide
+  - Monument1
+  - Monument2
+  - Monument3
+  - Monument4
+  - DeathArea
   layers:
   - Default
   - TransparentFX

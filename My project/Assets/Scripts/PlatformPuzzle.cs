@@ -24,6 +24,14 @@ public class PlatformPuzzle : MonoBehaviour
             Destroy(clone, 3f);
             StartCoroutine(ResetPos());
         }
+        else if (hit.gameObject.CompareTag("DeathArea"))
+        {
+            StartCoroutine(ResetPos());
+        }
+        else
+        {
+            return;
+        }
     }
 
 
