@@ -12,6 +12,7 @@ public class FrequencySystem : MonoBehaviour
     public GameObject NewObject;
     public GameObject particle;
     public bool isChanged = false;
+    public GameObject rabbitCanvas;
 
     private void Start()
     {
@@ -61,6 +62,7 @@ public class FrequencySystem : MonoBehaviour
                     Destroy(particle, 2f);
                     isChanged = true;
                     MissionSystem.instance.AdvanceHealAnimals();
+                    rabbitCanvas.SetActive(false);
                 }
             }
 

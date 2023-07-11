@@ -2453,7 +2453,7 @@ Animator:
   m_GameObject: {fileID: 4957605393579145644}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2255221d850daf642981c1a4eedf85a1, type: 3}
-  m_Controller: {fileID: 9100000, guid: ef6403663453e6a4cb106814a81e72b4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2488,8 +2488,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0813293, y: 2.2741919, z: 1.5185089}
-  m_Center: {x: -0.16325378, y: 0.6370959, z: 0.02179718}
+  m_Size: {x: 2.8642795, y: 2.2741919, z: 2.1733346}
+  m_Center: {x: -0.20988655, y: 0.6370959, z: 0.1784644}
 --- !u!114 &1388738848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2504,7 +2504,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: Highin
-    sentences: []
+    sentences:
+    - 'X-37: Hello. I want to recycle the waste I collect. Is this possible?'
+    - 'Highin: Wow, did you collect all this waste? Of course we can recycle.'
+    - 'Highin: I also heard that you repaired the solar panels. This is great!'
+    - 'X-37: Yes, I fixed it in a short time as there were issues I knew.'
+    - 'Highin: Thank you very much! I''ll handle these.'
+    - 'Highin: Before I go, I want to tell you one more thing.'
+    - 'Highin: I found the four stones you see in my hand on the by the river.'
+    - 'Highin: According to the rumors in the town, these are said to be holy stones.'
+    - 'Highin: It seems precious,'
+    - 'Highin: But since there''s no one left in the world to sell them to, I want
+      to gift them to you.'
+    - 'Highin: Maybe you can solve the mystery of these stones...'
     secondSentences: []
   input: {fileID: 0}
   isSunflowerCompleted: 0

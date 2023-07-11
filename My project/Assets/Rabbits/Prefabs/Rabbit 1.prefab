@@ -414,7 +414,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.26638478, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1259,6 +1259,7 @@ MonoBehaviour:
   NewObject: {fileID: 1588090451174212}
   particle: {fileID: 1399491477366159010}
   isChanged: 0
+  rabbitCanvas: {fileID: 1516207652}
 --- !u!1 &1593323770353162
 GameObject:
   m_ObjectHideFlags: 0

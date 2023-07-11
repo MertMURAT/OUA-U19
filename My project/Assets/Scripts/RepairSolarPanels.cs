@@ -8,6 +8,7 @@ public class RepairSolarPanels : MonoBehaviour
 {
     public Slider slider;
     public bool isChanged = false;
+    public GameObject panelCanvas;
 
     private void Start()
     {
@@ -38,6 +39,7 @@ public class RepairSolarPanels : MonoBehaviour
             {
                 isChanged = true;
                 MissionSystem.instance.AdvanceRepairPanels();
+                panelCanvas.SetActive(false);
             }
         }
     }

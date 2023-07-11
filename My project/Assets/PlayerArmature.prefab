@@ -4103,6 +4103,10 @@ MonoBehaviour:
   green: {fileID: 0}
   orange: {fileID: 0}
   red: {fileID: 0}
+  blueBool: 0
+  greenBool: 0
+  orangeBool: 0
+  redBool: 0
   anim: {fileID: 0}
 --- !u!1 &4954695788376242471
 GameObject:

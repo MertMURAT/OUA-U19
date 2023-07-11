@@ -52,6 +52,9 @@ public class MissionSystem : MonoBehaviour
     public GameObject player;
     private Animator anim;
 
+    public GameObject[] missionMarks;
+    public GameObject[] missionMaterials;
+
 
     private void Awake()
     {
@@ -74,7 +77,8 @@ public class MissionSystem : MonoBehaviour
     public void Start_FindNovora()
     {
         FindNovoraGO.SetActive(true);
-        //Haritada işaretle
+        NovoraMark();
+        Tips.instance.AnimateRunTips();
     }
 
     public void End_FindNovora()
@@ -88,7 +92,9 @@ public class MissionSystem : MonoBehaviour
     public void Start_HealSunflower()
     {
         HealSunflowerGO.SetActive(true);
-        //Haritada işaretle
+        SunflowersMark();
+        SunflowerMaterials();
+        Tips.instance.AnimateInteractTips();
     }
 
     public void End_HealSunflower()
@@ -118,7 +124,7 @@ public class MissionSystem : MonoBehaviour
     public void Start_BackToNovora()
     {
         BackToNovoraGO.SetActive(true);
-        //Haritada işaretle
+        NovoraMark();
     }
 
     public void End_BackToNovora()
@@ -136,7 +142,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindGrimnirGO.SetActive(true);
         chapter1End = true;
-        //Haritada işaretle
+        GrimnirMark();
     }
 
     public void End_FindGrimnir()
@@ -150,7 +156,8 @@ public class MissionSystem : MonoBehaviour
     public void Start_HealAnimals()
     {
         HealAnimalsGO.SetActive(true);
-        //Haritada işaretle
+        RabbitsMark();
+        RabbitMaterials();
     }
 
     public void AdvanceHealAnimals()
@@ -183,7 +190,7 @@ public class MissionSystem : MonoBehaviour
     public void Start_BackToGrimnir()
     {
         BackToGrimnirGO.SetActive(true);
-        //Haritada işaretle
+        GrimnirMark();
     }
 
     public void End_BackToGrimnir()
@@ -202,7 +209,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindTownGO.SetActive(true);
         chapter2End = true;
-        //Haritada işaretle
+        TownMark();
     }
 
     public void End_FindTown()
@@ -216,7 +223,7 @@ public class MissionSystem : MonoBehaviour
     public void Start_FindNolf()
     {
         FindNolfGO.SetActive(true);
-        //Haritada işaretle
+        NolfMark();
     }
 
     public void End_FindNolf()
@@ -230,6 +237,8 @@ public class MissionSystem : MonoBehaviour
     public void Start_CollectWastes()
     {
         CollectWastesGO.SetActive(true);
+        WastesMark();
+        WasteMaterials();
     }
     public void AdvanceCollectWastes()
     {
@@ -263,7 +272,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindUtenGO.SetActive(true);
         chapter3End = true;
-        //Haritada işaretle
+        UtenMark();
     }
     public void End_FindUten()
     {
@@ -276,7 +285,8 @@ public class MissionSystem : MonoBehaviour
     public void Start_RepairPanels()
     {
         RepairPanelsGO.SetActive(true);
-        //Haritada işaretle
+        SolarPanelsMark();
+        SolarPanelMaterials();
     }
 
     public void AdvanceRepairPanels()
@@ -309,7 +319,7 @@ public class MissionSystem : MonoBehaviour
     public void Start_FindHighin()
     {
         FindHighinGO.SetActive(true);
-        //Haritada işaretle
+        HighinMark();
     }
     public void End_FindHighin()
     {
@@ -326,7 +336,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindMonumentGO.SetActive(true);
         chapter4End = true;
-        //Haritada işaretle
+        MonumentMark();
     }
     public void End_FindMonument()
     {
@@ -565,5 +575,180 @@ public class MissionSystem : MonoBehaviour
     }
 
 
+    #region Mission Marks
+    public void NovoraMark()
+    {
+        missionMarks[0].SetActive(true);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void SunflowersMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(true);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void GrimnirMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(true);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void RabbitsMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(true);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void TownMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(true);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void NolfMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(true);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void WastesMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(true);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void UtenMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(true);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void SolarPanelsMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(true);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(false);
+    }
+    public void HighinMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(true);
+        missionMarks[10].SetActive(false);
+    }
+    public void MonumentMark()
+    {
+        missionMarks[0].SetActive(false);
+        missionMarks[1].SetActive(false);
+        missionMarks[2].SetActive(false);
+        missionMarks[3].SetActive(false);
+        missionMarks[4].SetActive(false);
+        missionMarks[5].SetActive(false);
+        missionMarks[6].SetActive(false);
+        missionMarks[7].SetActive(false);
+        missionMarks[8].SetActive(false);
+        missionMarks[9].SetActive(false);
+        missionMarks[10].SetActive(true);
+    }
+    #endregion
+    #region Activate Missions Materials
+    public void SunflowerMaterials()
+    {
+        missionMaterials[0].SetActive(true);
+    }
+    public void RabbitMaterials()
+    {
+        missionMaterials[1].SetActive(true);
+    }
+    public void WasteMaterials()
+    {
+        missionMaterials[2].SetActive(true);
+    }
+    public void SolarPanelMaterials()
+    {
+        missionMaterials[3].SetActive(true);
+    }
+
+    #endregion
 
 }

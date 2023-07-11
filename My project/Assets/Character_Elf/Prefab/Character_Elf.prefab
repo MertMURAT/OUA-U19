@@ -173,7 +173,7 @@ Animator:
   m_GameObject: {fileID: 1067053214699150}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8909e7aa923862f4abbfd053c0f0088e, type: 3}
-  m_Controller: {fileID: 9100000, guid: e3fef3b6b07f9dd459fe937156d0c85e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3b753df14ae01054eb5cd22e3e2518d3, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -208,8 +208,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0813293, y: 2.2741919, z: 1.5185089}
-  m_Center: {x: -0.16325378, y: 0.6370959, z: 0.02179718}
+  m_Size: {x: 2.3610919, y: 2.2741919, z: 2.2553654}
+  m_Center: {x: -0.1815939, y: 0.6370959, z: 0.3902259}
 --- !u!114 &1360085280
 MonoBehaviour:
   m_ObjectHideFlags: 0
