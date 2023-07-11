@@ -68,7 +68,7 @@ public class MissionSystem : MonoBehaviour
         HealSunflowerText.text = " Heal Sunflower " + HealSunflowerCount.ToString() + " / 10";
         HealAnimalsText.text = " Heal Rabbits " + HealAnimalsCount.ToString() + " / 10";
         CollectWastesText.text = " Collect Wastes " + CollectWastesCount.ToString() + " / 10";
-        RepairPanelsText.text = " Repair Panels " + RepairPanelsCount.ToString() + " / 4";
+        RepairPanelsText.text = " Repair Solar Panels " + RepairPanelsCount.ToString() + " / 4";
         PlaceStonesText.text = " Place the holy stones " + PlaceStonesCount.ToString() + " / 4";
     }
 
@@ -113,7 +113,7 @@ public class MissionSystem : MonoBehaviour
     {
         HealSunflowerCount++;
         HealSunflowerText.text = " Heal Sunflower " + HealSunflowerCount.ToString() + " / 10";
-        if (HealSunflowerCount == 1)
+        if (HealSunflowerCount == 10)
         {
             End_HealSunflower();
         }
@@ -164,7 +164,7 @@ public class MissionSystem : MonoBehaviour
     {
         HealAnimalsCount++;
         HealAnimalsText.text = " Heal Rabbits " + HealAnimalsCount.ToString() + " / 10";
-        if (HealAnimalsCount == 1)
+        if (HealAnimalsCount == 10)
         {
             End_HealAnimals();
         }
@@ -243,9 +243,9 @@ public class MissionSystem : MonoBehaviour
     public void AdvanceCollectWastes()
     {
         CollectWastesCount++;
-        CollectWastesText.text = " Collect Wastes " + CollectWastesText.ToString() + " / 10";
+        CollectWastesText.text = " Collect Wastes " + CollectWastesCount.ToString() + " / 10";
         Debug.Log(CollectWastesCount);
-        if (CollectWastesCount == 1)
+        if (CollectWastesCount == 10)
         {
             End_CollectWastes();
         }
@@ -281,7 +281,7 @@ public class MissionSystem : MonoBehaviour
     }
     #endregion
 
-    #region Mission-4/2 Reapir Panels
+    #region Mission-4/2 Repair Panels
     public void Start_RepairPanels()
     {
         RepairPanelsGO.SetActive(true);
@@ -293,7 +293,7 @@ public class MissionSystem : MonoBehaviour
     {
         RepairPanelsCount++;
         RepairPanelsText.text = " Repair Solar Panels " + RepairPanelsCount.ToString() + " / 4";
-        if (RepairPanelsCount == 1)
+        if (RepairPanelsCount == 4)
         {
             End_RepairPanels();
         }
