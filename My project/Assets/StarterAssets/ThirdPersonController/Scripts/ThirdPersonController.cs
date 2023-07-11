@@ -447,5 +447,13 @@ namespace StarterAssets
             _playerInput.enabled = true;
         }
 
+        public void AnimatePlace()
+        {
+            if (_hasAnimator)
+            {
+                _animator.SetTrigger("Place");
+            }
+        }
+
     }
 }

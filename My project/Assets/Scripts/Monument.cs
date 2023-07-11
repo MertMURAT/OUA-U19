@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StarterAssets;
 
 public class Monument : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Monument : MonoBehaviour
     public GameObject blue, green, orange, red;
     public bool blueBool = false, greenBool = false, orangeBool = false, redBool = false;
     public Animator anim;
+    public ParticleSystem blueP, greenP, orangeP, redP;
 
     private void Awake()
     {
@@ -19,27 +21,35 @@ public class Monument : MonoBehaviour
     {
         if (other.CompareTag("Monument1") && Input.GetKeyDown(KeyCode.F) && !blueBool)
         {
+            ThirdPersonController.instance.AnimatePlace();
             blueBool = true;
-            MissionSystem.instance.AdvancePlaceStones();
             blue.SetActive(true);
+            blueP.Play();
+            MissionSystem.instance.AdvancePlaceStones();
         }
         else if (other.CompareTag("Monument2") && Input.GetKeyDown(KeyCode.F) && !greenBool)
         {
+            ThirdPersonController.instance.AnimatePlace();
             greenBool = false;
-            MissionSystem.instance.AdvancePlaceStones();
             green.SetActive(true);
+            greenP.Play();
+            MissionSystem.instance.AdvancePlaceStones();
         }
         else if (other.CompareTag("Monument3") && Input.GetKeyDown(KeyCode.F) && !orangeBool)
         {
+            ThirdPersonController.instance.AnimatePlace();
             orangeBool = true;
-            MissionSystem.instance.AdvancePlaceStones();
             orange.SetActive(true);
+            orangeP.Play();
+            MissionSystem.instance.AdvancePlaceStones();
         }
         else if (other.CompareTag("Monument4") && Input.GetKeyDown(KeyCode.F) && !redBool)
         {
+            ThirdPersonController.instance.AnimatePlace();
             redBool = true;
-            MissionSystem.instance.AdvancePlaceStones();
             red.SetActive(true);
+            redP.Play();
+            MissionSystem.instance.AdvancePlaceStones();
         }
         else
         {

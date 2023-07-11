@@ -11,9 +11,9 @@ public class PuzzlePlatformManager : MonoBehaviour
     public float maksh = 30f;
     public bool check1, check2, check3, check4 = false;
     public bool isSolved = false;
-    public GameObject button;
     public GameObject puzzle;
     public GameObject puzzleCheck;
+    public GameObject wallCollider;
     public GameObject[] lights;
     public bool isPuzzleStarted = false;
 
@@ -40,14 +40,9 @@ public class PuzzlePlatformManager : MonoBehaviour
         if (other.CompareTag("Platform") && !isPuzzleStarted)
         {
             isPushed = true;
+            wallCollider.SetActive(true);
         }
 
-        if (other.CompareTag("PlatformButton"))
-        {
-            button.SetActive(false);
-            puzzle.SetActive(true);
-            isPuzzleStarted = true;
-        }
 
         if (isPuzzleStarted)
         {
@@ -71,7 +66,6 @@ public class PuzzlePlatformManager : MonoBehaviour
                 check4 = true;
                 lights[3].SetActive(true);
                 puzzle.SetActive(false);
-                button.SetActive(false);
                 puzzleCheck.SetActive(false);
                 isSolved = true;
             }
@@ -89,7 +83,8 @@ public class PuzzlePlatformManager : MonoBehaviour
         if (parentObject.transform.position.y - startPos.y >= maksh)
         {
             isPushed = false;
-            button.SetActive(true);
+            puzzle.SetActive(true);
+            isPuzzleStarted = true;
             StartCoroutine(TurnOnLightsRandomly());
         }
     }
@@ -100,6 +95,7 @@ public class PuzzlePlatformManager : MonoBehaviour
         if (parentObject.transform.position.y == startPos.y)
         {
             isSolved = false;
+            wallCollider.SetActive(false);
         }
     }
 
