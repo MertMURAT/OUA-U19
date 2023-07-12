@@ -30,7 +30,7 @@ public class Monument : MonoBehaviour
         else if (other.CompareTag("Monument2") && Input.GetKeyDown(KeyCode.F) && !greenBool)
         {
             ThirdPersonController.instance.AnimatePlace();
-            greenBool = false;
+            greenBool = true;
             green.SetActive(true);
             greenP.Play();
             MissionSystem.instance.AdvancePlaceStones();

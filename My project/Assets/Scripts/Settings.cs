@@ -3,7 +3,7 @@ using UnityEngine;
 public class Settings : MonoBehaviour
 {
     public GameObject videoPanel, audioPanel, controlsPanel, creditsPanel;
-    public AudioClip uiClick;
+    public AudioClip menuSelect;
 
 
     //UI Panels
@@ -13,7 +13,7 @@ public class Settings : MonoBehaviour
         audioPanel.SetActive(false);
         controlsPanel.SetActive(false);
         creditsPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void OpenAudioPanel()
     {
@@ -21,7 +21,7 @@ public class Settings : MonoBehaviour
         audioPanel.SetActive(true);
         controlsPanel.SetActive(false);
         creditsPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void OpenControlsPanel()
     {
@@ -29,7 +29,7 @@ public class Settings : MonoBehaviour
         audioPanel.SetActive(false);
         controlsPanel.SetActive(true);
         creditsPanel.SetActive(false);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void OpenCreditsPanel()
     {
@@ -37,7 +37,7 @@ public class Settings : MonoBehaviour
         audioPanel.SetActive(false);
         controlsPanel.SetActive(false);
         creditsPanel.SetActive(true);
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
 
@@ -47,7 +47,7 @@ public class Settings : MonoBehaviour
         if (quality)
         {
             QualitySettings.SetQualityLevel(5);
-            SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+            SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
         }
     }
     public void SetQualityToMid(bool quality)
@@ -55,7 +55,7 @@ public class Settings : MonoBehaviour
         if (quality)
         {
             QualitySettings.SetQualityLevel(3);
-            SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+            SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
         }
     }
     public void SetQualityToLow(bool quality)
@@ -63,7 +63,7 @@ public class Settings : MonoBehaviour
         if (quality)
         {
             QualitySettings.SetQualityLevel(1);
-            SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+            SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
         }
     }
 
@@ -73,7 +73,7 @@ public class Settings : MonoBehaviour
         if (res)
         {
             Screen.SetResolution(1920, 1080, true);
-            SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+            SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
         }
     }
     public void SetResTo1280720(bool res)
@@ -81,7 +81,7 @@ public class Settings : MonoBehaviour
         if (res)
         {
             Screen.SetResolution(1280, 720, true);
-            SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+            SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
         }
     }
 
@@ -89,7 +89,7 @@ public class Settings : MonoBehaviour
     public void SetFullscreen(bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
-        SoundManager.instance.PlaySoundFX(uiClick, 0.3f);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
 }

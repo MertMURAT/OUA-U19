@@ -14,7 +14,15 @@ public class UI_Controller : MonoBehaviour
     public GameObject settingsPanel;
     public PlayerInput playerInput;
     public GameObject[] chapterPanels;
-   
+    public AudioClip menuOpen, menuClose, menuSelect;
+
+
+
+    private void Start()
+    {
+        playerInput.enabled = true;
+        Cursor.visible = false;
+    }
 
     void Update()
     {
@@ -41,6 +49,7 @@ public class UI_Controller : MonoBehaviour
         playerInput.enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        SoundManager.instance.PlaySoundFX(menuOpen, 0.3f);
     }
 
     public void CloseTablet()
@@ -51,6 +60,7 @@ public class UI_Controller : MonoBehaviour
         playerInput.enabled = true;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        SoundManager.instance.PlaySoundFX(menuClose, 0.3f);
     }
 
     public void OpenMap()
@@ -58,6 +68,7 @@ public class UI_Controller : MonoBehaviour
         mapPanel.SetActive(true);
         missionsPanel.SetActive(false);
         settingsPanel.SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
     public void OpenMissions()
@@ -65,12 +76,14 @@ public class UI_Controller : MonoBehaviour
         missionsPanel.SetActive(true);
         mapPanel.SetActive(false);
         settingsPanel.SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void OpenSettings()
     {
         settingsPanel.SetActive(true);
         missionsPanel.SetActive(false);
         mapPanel.SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
 
@@ -82,6 +95,7 @@ public class UI_Controller : MonoBehaviour
         chapterPanels[2].SetActive(false);
         chapterPanels[3].SetActive(false);
         chapterPanels[4].SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void ToggleChapterPanel2()
     {
@@ -90,6 +104,7 @@ public class UI_Controller : MonoBehaviour
         chapterPanels[2].SetActive(false);
         chapterPanels[3].SetActive(false);
         chapterPanels[4].SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void ToggleChapterPanel3()
     {
@@ -98,6 +113,7 @@ public class UI_Controller : MonoBehaviour
         chapterPanels[2].SetActive(true);
         chapterPanels[3].SetActive(false);
         chapterPanels[4].SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void ToggleChapterPanel4()
     {
@@ -106,6 +122,7 @@ public class UI_Controller : MonoBehaviour
         chapterPanels[2].SetActive(false);
         chapterPanels[3].SetActive(true);
         chapterPanels[4].SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void ToggleChapterPanel5()
     {
@@ -114,6 +131,7 @@ public class UI_Controller : MonoBehaviour
         chapterPanels[2].SetActive(false);
         chapterPanels[3].SetActive(false);
         chapterPanels[4].SetActive(true);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     #endregion
 

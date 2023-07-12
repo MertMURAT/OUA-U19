@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public AudioClip menuSelect;
 
     public GameObject startMenu, creditsMenu;
     public void PlayButton()
@@ -16,12 +17,14 @@ public class Menu : MonoBehaviour
     {
         creditsMenu.SetActive(true);
         startMenu.SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
     public void BackButton()
     {
         creditsMenu.SetActive(false);
         startMenu.SetActive(true);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
     public void QuitButton()

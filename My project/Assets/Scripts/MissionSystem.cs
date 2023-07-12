@@ -8,6 +8,7 @@ using StarterAssets;
 public class MissionSystem : MonoBehaviour
 {
     public static MissionSystem instance;
+    public AudioClip mission;
 
     //Chapter - 1
     public GameObject Chapter1;
@@ -50,6 +51,7 @@ public class MissionSystem : MonoBehaviour
 
     ThirdPersonController controller;
     public GameObject player;
+    public GameObject minimap;
     private Animator anim;
 
     public GameObject[] missionMarks;
@@ -78,6 +80,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindNovoraGO.SetActive(true);
         NovoraMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
         Tips.instance.AnimateRunTips();
     }
 
@@ -95,6 +98,7 @@ public class MissionSystem : MonoBehaviour
         SunflowersMark();
         SunflowerMaterials();
         Tips.instance.AnimateInteractTips();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void End_HealSunflower()
@@ -125,6 +129,7 @@ public class MissionSystem : MonoBehaviour
     {
         BackToNovoraGO.SetActive(true);
         NovoraMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void End_BackToNovora()
@@ -143,6 +148,7 @@ public class MissionSystem : MonoBehaviour
         FindGrimnirGO.SetActive(true);
         chapter1End = true;
         GrimnirMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void End_FindGrimnir()
@@ -158,6 +164,7 @@ public class MissionSystem : MonoBehaviour
         HealAnimalsGO.SetActive(true);
         RabbitsMark();
         RabbitMaterials();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void AdvanceHealAnimals()
@@ -210,6 +217,7 @@ public class MissionSystem : MonoBehaviour
         FindTownGO.SetActive(true);
         chapter2End = true;
         TownMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void End_FindTown()
@@ -224,6 +232,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindNolfGO.SetActive(true);
         NolfMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void End_FindNolf()
@@ -239,6 +248,7 @@ public class MissionSystem : MonoBehaviour
         CollectWastesGO.SetActive(true);
         WastesMark();
         WasteMaterials();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
     public void AdvanceCollectWastes()
     {
@@ -287,6 +297,7 @@ public class MissionSystem : MonoBehaviour
         RepairPanelsGO.SetActive(true);
         SolarPanelsMark();
         SolarPanelMaterials();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void AdvanceRepairPanels()
@@ -320,6 +331,7 @@ public class MissionSystem : MonoBehaviour
     {
         FindHighinGO.SetActive(true);
         HighinMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
     public void End_FindHighin()
     {
@@ -337,6 +349,7 @@ public class MissionSystem : MonoBehaviour
         FindMonumentGO.SetActive(true);
         chapter4End = true;
         MonumentMark();
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
     public void End_FindMonument()
     {
@@ -349,6 +362,7 @@ public class MissionSystem : MonoBehaviour
     public void Start_PlaceStones()
     {
         PlaceStonesGO.SetActive(true);
+        SoundManager.instance.PlaySoundFX(mission, 0.3f);
     }
 
     public void AdvancePlaceStones()
@@ -361,7 +375,9 @@ public class MissionSystem : MonoBehaviour
             Monument.instance.AnimateMonument();
             DisableInput();
 
-            //Kamera
+            Cinematic.instance.EndCinematic();
+            player.SetActive(false);
+            minimap.SetActive(false);
         }
     }
 

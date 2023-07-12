@@ -16,7 +16,7 @@ public class SoundManager : MonoBehaviour
     void Awake()
     {
         MakeSingleton();
-        //BGM.Play();
+        BGM.Play();
     }
 
 
@@ -35,13 +35,11 @@ public class SoundManager : MonoBehaviour
 
     private void Update()
     {
-        /*
         if (!BGM.isPlaying)
         {
             BGM.clip = themeSongs[Random.Range(0, themeSongs.Length)];
             BGM.Play();
         }
-        */
     }
 
     public void PlaySoundFX(AudioClip audioClip, float volume)

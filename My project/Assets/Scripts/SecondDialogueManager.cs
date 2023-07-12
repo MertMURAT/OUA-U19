@@ -12,6 +12,7 @@ public class SecondDialogueManager : MonoBehaviour
     private bool dialogueStarted = false;
 
     public Animator anim;
+    public AudioClip nextDia;
 
     private Queue<string> sentences;
 
@@ -57,6 +58,7 @@ public class SecondDialogueManager : MonoBehaviour
             return;
         }
 
+        SoundManager.instance.PlaySoundFX(nextDia, 0.3f);
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
