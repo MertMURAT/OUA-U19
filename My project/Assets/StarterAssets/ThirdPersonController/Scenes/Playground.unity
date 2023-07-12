@@ -16637,6 +16637,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2273122616585040008, guid: 6a5942687c26ef74f972d465170cd7e4, type: 3}
+      propertyPath: swapTrees
+      value: 
+      objectReference: {fileID: 196434, guid: cfe0412d7fa12f243b181e3f547a2294, type: 3}
     - target: {fileID: 9198690396423181094, guid: 6a5942687c26ef74f972d465170cd7e4, type: 3}
       propertyPath: m_RootOrder
       value: 9
