@@ -117,7 +117,7 @@ public class MissionSystem : MonoBehaviour
     {
         HealSunflowerCount++;
         HealSunflowerText.text = " Heal Sunflower " + HealSunflowerCount.ToString() + " / 10";
-        if (HealSunflowerCount == 10)
+        if (HealSunflowerCount == 1)
         {
             End_HealSunflower();
         }
@@ -171,9 +171,10 @@ public class MissionSystem : MonoBehaviour
     {
         HealAnimalsCount++;
         HealAnimalsText.text = " Heal Rabbits " + HealAnimalsCount.ToString() + " / 10";
-        if (HealAnimalsCount == 10)
+        if (HealAnimalsCount == 1)
         {
             End_HealAnimals();
+            TerrainChanger.instance.ChangeTree();
         }
     }
 
@@ -258,6 +259,7 @@ public class MissionSystem : MonoBehaviour
         if (CollectWastesCount == 10)
         {
             End_CollectWastes();
+            TerrainChanger.instance.ChangeDetail();
         }
     }
     public void End_CollectWastes()

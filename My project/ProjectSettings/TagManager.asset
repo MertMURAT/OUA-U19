@@ -25,6 +25,7 @@ TagManager:
   - Monument3
   - Monument4
   - DeathArea
+  - Collected
   layers:
   - Default
   - TransparentFX

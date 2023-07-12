@@ -9,6 +9,7 @@ public class RepairSolarPanels : MonoBehaviour
     public Slider slider;
     public bool isChanged = false;
     public GameObject panelCanvas;
+    public AudioClip repair;
 
     private void Start()
     {
@@ -29,6 +30,7 @@ public class RepairSolarPanels : MonoBehaviour
             else
             {
                 ThirdPersonController.instance.StopRepair();
+                SoundManager.instance.stopSFX();
             }
         }
         else
@@ -47,6 +49,7 @@ public class RepairSolarPanels : MonoBehaviour
     public void Repair()
     {
         slider.value++;
+        SoundManager.instance.PlaySoundFX(repair, 0.3f);
     }
 
 }

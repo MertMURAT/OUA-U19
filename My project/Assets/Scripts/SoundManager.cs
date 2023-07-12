@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using StarterAssets;
+using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
@@ -9,16 +10,20 @@ public class SoundManager : MonoBehaviour
 
     public AudioSource SFXManager1, SFXManager2, BGM;
     public AudioClip[] themeSongs;
-
+    public Slider slider;
     public AudioMixer BGM_Mixer, SFX_Mixer;
 
-
+    
     void Awake()
     {
         MakeSingleton();
-        BGM.Play();
     }
 
+    private void Start()
+    {
+        SetBGMVolume(0.05f);
+        slider.value = 0.1f;
+    }
 
     void MakeSingleton()
     {
@@ -46,12 +51,14 @@ public class SoundManager : MonoBehaviour
     {
         if (!SFXManager1.isPlaying)
         {
+            SFXManager1.mute = false;
             SFXManager1.clip = audioClip;
             SFXManager1.volume = volume;
             SFXManager1.PlayOneShot(audioClip, volume);
         }
         else
         {
+            SFXManager2.mute = false;
             SFXManager2.clip = audioClip;
             SFXManager2.volume = volume;
             SFXManager2.PlayOneShot(audioClip, volume);
@@ -68,20 +75,25 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    public void stopSFX()
+    {
+        SFXManager1.mute = true;
+        SFXManager2.mute = true;
+    }
+
 
 
     //Sound
     public void SetBGMVolume(float volume)
     {
         BGM_Mixer.SetFloat("BGM_Volume", Mathf.Log10(volume) * 20);
-       
+        Debug.Log(volume);
     }
 
     public void SetSFXVolume(float volume)
     {
         SFX_Mixer.SetFloat("SFX_Volume", Mathf.Log10(volume) * 20);
         ThirdPersonController.instance.FootstepAudioVolume = volume / 2;
-        Debug.Log(ThirdPersonController.instance.FootstepAudioVolume + "" + volume);
     }
 
 }

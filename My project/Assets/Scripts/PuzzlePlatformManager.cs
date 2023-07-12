@@ -16,6 +16,8 @@ public class PuzzlePlatformManager : MonoBehaviour
     public GameObject wallCollider;
     public GameObject[] lights;
     public bool isPuzzleStarted = false;
+    public AudioClip platformUp;
+    public AudioClip lightSwitch;
 
     private void Start()
     {
@@ -41,6 +43,11 @@ public class PuzzlePlatformManager : MonoBehaviour
         {
             isPushed = true;
             wallCollider.SetActive(true);
+            SoundManager.instance.PlaySoundFX(platformUp, 0.4f);
+            if (isPushed)
+            {
+                Up();
+            }
         }
 
 
@@ -50,16 +57,19 @@ public class PuzzlePlatformManager : MonoBehaviour
             {
                 check1 = true;
                 lights[0].SetActive(true);
+                SoundManager.instance.PlaySoundFX(lightSwitch, 0.3f);
             }
             else if (other.CompareTag("yellow") && check1)
             {
                 check2 = true;
                 lights[1].SetActive(true);
+                SoundManager.instance.PlaySoundFX(lightSwitch, 0.3f);
             }
             else if (other.CompareTag("blue") && check1 && check2)
             {
                 check3 = true;
                 lights[2].SetActive(true);
+                SoundManager.instance.PlaySoundFX(lightSwitch, 0.3f);
             }
             else if (other.CompareTag("green") && check1 && check2 && check3)
             {
@@ -68,6 +78,8 @@ public class PuzzlePlatformManager : MonoBehaviour
                 puzzle.SetActive(false);
                 puzzleCheck.SetActive(false);
                 isSolved = true;
+                SoundManager.instance.PlaySoundFX(lightSwitch, 0.3f);
+                SoundManager.instance.PlaySoundFX(platformUp, 0.4f);
             }
             else
             {

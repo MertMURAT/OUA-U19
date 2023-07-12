@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class TerrainChanger : MonoBehaviour
 {
+    public static TerrainChanger instance;
+
     private TreePrototype[] cacheTree;
     private DetailPrototype[] cacheDetail;
 
@@ -10,6 +12,11 @@ public class TerrainChanger : MonoBehaviour
 
     public GameObject swapTrees;
     public GameObject swapDetails;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -20,19 +27,16 @@ public class TerrainChanger : MonoBehaviour
         detailType = Terrain.activeTerrain.terrainData.detailPrototypes;
     }
 
-    void Update()
+    public void ChangeTree()
     {
-        if (Input.GetKeyDown("y"))
-        {
-            treeType[0].prefab = swapTrees;
-            Terrain.activeTerrain.terrainData.treePrototypes = treeType;
-        }
+        treeType[0].prefab = swapTrees;
+        Terrain.activeTerrain.terrainData.treePrototypes = treeType;
+    }
 
-        if (Input.GetKeyDown("u"))
-        {
-            detailType[0].prototype = swapDetails;
-            Terrain.activeTerrain.terrainData.detailPrototypes = detailType;
-        }
+    public void ChangeDetail()
+    {
+        detailType[0].prototype = swapDetails;
+        Terrain.activeTerrain.terrainData.detailPrototypes = detailType;
     }
 
 

@@ -381,6 +381,7 @@ MonoBehaviour:
   slider: {fileID: 7391504920413687993}
   isChanged: 0
   panelCanvas: {fileID: 7391504919632201961}
+  repair: {fileID: 8300000, guid: 88c710fdee7c463499d122c18780cb99, type: 3}
 --- !u!1 &8432966501755005451
 GameObject:
   m_ObjectHideFlags: 0

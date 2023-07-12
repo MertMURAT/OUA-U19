@@ -6,6 +6,8 @@ using StarterAssets;
 public class Monument : MonoBehaviour
 {
     public static Monument instance;
+    public AudioClip place;
+    public AudioClip platformUp;
 
     public GameObject blue, green, orange, red;
     public bool blueBool = false, greenBool = false, orangeBool = false, redBool = false;
@@ -26,6 +28,7 @@ public class Monument : MonoBehaviour
             blue.SetActive(true);
             blueP.Play();
             MissionSystem.instance.AdvancePlaceStones();
+            SoundManager.instance.PlaySoundFX(place, 0.3f);
         }
         else if (other.CompareTag("Monument2") && Input.GetKeyDown(KeyCode.F) && !greenBool)
         {
@@ -34,6 +37,7 @@ public class Monument : MonoBehaviour
             green.SetActive(true);
             greenP.Play();
             MissionSystem.instance.AdvancePlaceStones();
+            SoundManager.instance.PlaySoundFX(place, 0.3f);
         }
         else if (other.CompareTag("Monument3") && Input.GetKeyDown(KeyCode.F) && !orangeBool)
         {
@@ -42,6 +46,7 @@ public class Monument : MonoBehaviour
             orange.SetActive(true);
             orangeP.Play();
             MissionSystem.instance.AdvancePlaceStones();
+            SoundManager.instance.PlaySoundFX(place, 0.3f);
         }
         else if (other.CompareTag("Monument4") && Input.GetKeyDown(KeyCode.F) && !redBool)
         {
@@ -50,6 +55,7 @@ public class Monument : MonoBehaviour
             red.SetActive(true);
             redP.Play();
             MissionSystem.instance.AdvancePlaceStones();
+            SoundManager.instance.PlaySoundFX(place, 0.3f);
         }
         else
         {
@@ -60,6 +66,8 @@ public class Monument : MonoBehaviour
     public void AnimateMonument()
     {
         anim.SetBool("isOpen", true);
+        SoundManager.instance.PlaySoundFX(platformUp, 0.4f);
+
     }
 
 }

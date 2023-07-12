@@ -9,6 +9,7 @@ public class PlatformPuzzle : MonoBehaviour
     public GameObject brokenGlass, player;
     public Transform resetPos;
     ThirdPersonController controller;
+    public AudioClip broke;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class PlatformPuzzle : MonoBehaviour
             Destroy(hit.gameObject);
             Destroy(clone, 3f);
             StartCoroutine(ResetPos());
+            SoundManager.instance.PlaySoundFX(broke, 0.3f);
         }
         else if (hit.gameObject.CompareTag("DeathArea"))
         {

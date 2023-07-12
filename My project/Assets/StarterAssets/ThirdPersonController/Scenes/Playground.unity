@@ -5241,7 +5241,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259280334
 GameObject:
@@ -7204,6 +7204,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 872950455}
     - target: {fileID: 1480220525, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: switchoff
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a40a1330ebda734f8ad4c8800999940, type: 3}
+    - target: {fileID: 1480220525, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: platformUp
+      value: 
+      objectReference: {fileID: 8300000, guid: 2138ae9e8362cfc4195ed11f8d45acc7, type: 3}
+    - target: {fileID: 1480220525, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: lightSwitch
+      value: 
+      objectReference: {fileID: 8300000, guid: 99f69fede9ed6f147a2ccb3ec1d1d180, type: 3}
+    - target: {fileID: 1480220525, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: puzzleCheck
       value: 
       objectReference: {fileID: 1967938146}
@@ -7231,6 +7243,10 @@ PrefabInstance:
       propertyPath: lights.Array.data[3]
       value: 
       objectReference: {fileID: 999440831}
+    - target: {fileID: 1480220527, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: collect
+      value: 
+      objectReference: {fileID: 8300000, guid: 03ede5cbde382ad489715a0009d00d80, type: 3}
     - target: {fileID: 1480220528, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: red
       value: 
@@ -7256,6 +7272,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1851246827565313643}
     - target: {fileID: 1480220528, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: place
+      value: 
+      objectReference: {fileID: 8300000, guid: 9ad01ca69e0edc94fab7944afd904ff3, type: 3}
+    - target: {fileID: 1480220528, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: greenP
       value: 
       objectReference: {fileID: 6304185992092014143}
@@ -7267,6 +7287,14 @@ PrefabInstance:
       propertyPath: orangeP
       value: 
       objectReference: {fileID: 6304185992516564550}
+    - target: {fileID: 1480220528, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: platformUp
+      value: 
+      objectReference: {fileID: 8300000, guid: 2138ae9e8362cfc4195ed11f8d45acc7, type: 3}
+    - target: {fileID: 1480220535, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: broke
+      value: 
+      objectReference: {fileID: 8300000, guid: 303f6d6f7704c0c439762e275145956d, type: 3}
     - target: {fileID: 1480220535, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: resetPos
       value: 
@@ -8069,7 +8097,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5718746841938785518, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5718746841938785518, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11188,7 +11216,7 @@ MonoBehaviour:
   dialogueText: {fileID: 422895241}
   input: {fileID: 1113957302}
   anim: {fileID: 2074752067}
-  nextDia: {fileID: 0}
+  nextDia: {fileID: 8300000, guid: ffffd8f60f5eac64c91769a79b3c7558, type: 3}
 --- !u!4 &457049536
 Transform:
   m_ObjectHideFlags: 0
@@ -16786,6 +16814,10 @@ PrefabInstance:
       propertyPath: swapTrees
       value: 
       objectReference: {fileID: 196434, guid: cfe0412d7fa12f243b181e3f547a2294, type: 3}
+    - target: {fileID: 9198690396423181093, guid: 6a5942687c26ef74f972d465170cd7e4, type: 3}
+      propertyPath: m_TreeBillboardDistance
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 9198690396423181094, guid: 6a5942687c26ef74f972d465170cd7e4, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -31019,7 +31051,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259490545}
-  m_LocalRotation: {x: 0.07202168, y: 0.80472165, z: -0.09979661, w: 0.5807553}
+  m_LocalRotation: {x: 0.072021686, y: 0.80472165, z: -0.09979662, w: 0.5807553}
   m_LocalPosition: {x: 160.46735, y: 78.1, z: 415.69327}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -37435,7 +37467,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 2129898601}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -46733,7 +46765,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 2146626372}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
@@ -48089,7 +48121,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1961663636
 MonoBehaviour:
@@ -53112,9 +53144,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2671429275351524618, guid: 2291188362d2b6e4abcd475934022890, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 1506466981}
     - target: {fileID: 2671429275351524619, guid: 2291188362d2b6e4abcd475934022890, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2671429275351524619, guid: 2291188362d2b6e4abcd475934022890, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53155,6 +53191,10 @@ PrefabInstance:
     - target: {fileID: 2671429275351524619, guid: 2291188362d2b6e4abcd475934022890, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2671429275351524620, guid: 2291188362d2b6e4abcd475934022890, type: 3}
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2291188362d2b6e4abcd475934022890, type: 3}
