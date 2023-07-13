@@ -11,6 +11,7 @@ public class Menu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        Time.timeScale = 1;
     }
 
     public GameObject startMenu, creditsMenu;

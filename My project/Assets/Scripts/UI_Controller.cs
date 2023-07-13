@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class UI_Controller : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject mapPanel;
     public GameObject missionsPanel;
     public GameObject settingsPanel;
+    public GameObject mainmenuPanel;
     public PlayerInput playerInput;
     public GameObject[] chapterPanels;
     public AudioClip menuOpen, menuClose, menuSelect;
@@ -72,6 +74,7 @@ public class UI_Controller : MonoBehaviour
         mapPanel.SetActive(true);
         missionsPanel.SetActive(false);
         settingsPanel.SetActive(false);
+        mainmenuPanel.SetActive(false);
         SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
@@ -80,6 +83,7 @@ public class UI_Controller : MonoBehaviour
         missionsPanel.SetActive(true);
         mapPanel.SetActive(false);
         settingsPanel.SetActive(false);
+        mainmenuPanel.SetActive(false);
         SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
     public void OpenSettings()
@@ -87,9 +91,28 @@ public class UI_Controller : MonoBehaviour
         settingsPanel.SetActive(true);
         missionsPanel.SetActive(false);
         mapPanel.SetActive(false);
+        mainmenuPanel.SetActive(false);
         SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
     }
 
+    public void OpenMainMenu()
+    {
+        mainmenuPanel.SetActive(true);
+        mapPanel.SetActive(false);
+        missionsPanel.SetActive(false);
+        settingsPanel.SetActive(false);
+        SoundManager.instance.PlaySoundFX(menuSelect, 0.3f);
+    }
+
+    public void MM_Yes()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void MM_No()
+    {
+        mainmenuPanel.SetActive(false);
+    }
 
     #region Chapter Panels
     public void ToggleChapterPanel1()

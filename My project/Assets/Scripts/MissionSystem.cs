@@ -393,6 +393,7 @@ public class MissionSystem : MonoBehaviour
         PlaceStonesCheck.SetActive(true);
         MissionSystem.instance.SetMissionData(Mission.PLACE_STONES, MissionStatus.COMPLETED);
         Chapter5.SetActive(false);
+        SkyboxChanger.instance.ChangeSkybox();
     }
 
 
