@@ -450,7 +450,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &8969302
 GameObject:
@@ -1435,13 +1435,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41364084}
-  m_LocalRotation: {x: 0.06930083, y: 0.050582517, z: 0.5696074, w: 0.8174266}
-  m_LocalPosition: {x: 22.33606, y: 9.096462, z: -17.720337}
+  m_LocalRotation: {x: 0.15630661, y: 0.22322898, z: 0.55186796, w: 0.78814906}
+  m_LocalPosition: {x: 22.352173, y: 11.599998, z: -17.857239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1125215236}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &41364086
 MonoBehaviour:
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 260572883}
-  m_UpdateMethod: 0
+  m_UpdateMethod: 1
   m_PositionUnits: 0
   m_Speed: 0.5
   m_Position: 0
@@ -1687,7 +1687,7 @@ Transform:
   - {fileID: 1004654157}
   - {fileID: 295825115}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &54364571
 GameObject:
@@ -4659,7 +4659,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &240983136
 GameObject:
@@ -5241,7 +5241,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259280334
 GameObject:
@@ -5414,7 +5414,7 @@ MonoBehaviour:
     width: 2.4
   m_Looped: 1
   m_Waypoints:
-  - position: {x: 4.693054, y: 0, z: -7.078064}
+  - position: {x: 4.7091675, y: 0, z: -7.214966}
     roll: 70
   - position: {x: 6.64386, y: 0, z: 7.5741577}
     roll: 70
@@ -5422,17 +5422,15 @@ MonoBehaviour:
     roll: 70
   - position: {x: -5.522949, y: 0, z: 28.459381}
     roll: 70
-  - position: {x: -23.909424, y: 6.7132072, z: 34.625793}
+  - position: {x: -23.909424, y: 0, z: 34.625793}
     roll: 70
-  - position: {x: -45.15808, y: 15.197727, z: 21.429657}
+  - position: {x: -45.15808, y: 0, z: 21.429657}
     roll: 70
-  - position: {x: -46.515686, y: 12.215328, z: 3.577057}
+  - position: {x: -48.028717, y: 0, z: -2.4312744}
     roll: 70
-  - position: {x: -30.676636, y: 0, z: -17.624329}
+  - position: {x: -31.314514, y: 0, z: -20.343018}
     roll: 70
-  - position: {x: -8.044189, y: 0, z: -17.401428}
-    roll: 70
-  - position: {x: 3.1348267, y: 0.6217766, z: -9.125122}
+  - position: {x: -12.103638, y: 0, z: -20.1008}
     roll: 70
 --- !u!4 &260572884
 Transform:
@@ -5442,12 +5440,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260572882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.643005, y: 9.096462, z: -10.642273}
+  m_LocalPosition: {x: 17.643005, y: 11.6, z: -10.642273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1125215236}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266900874
 GameObject:
@@ -6177,8 +6175,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295825114}
-  m_LocalRotation: {x: -0.001636574, y: 0.99585557, z: -0.0890741, w: -0.018297032}
-  m_LocalPosition: {x: 160.1, y: 78.1, z: 405.7}
+  m_LocalRotation: {x: 0.000004003372, y: -0.0992832, z: 0.0000003994412, w: 0.9950592}
+  m_LocalPosition: {x: 547.39435, y: 78.1, z: 365.91302}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6198,7 +6196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 1004654156}
-  m_UpdateMethod: 0
+  m_UpdateMethod: 1
   m_PositionUnits: 0
   m_Speed: 0.5
   m_Position: 0
@@ -7200,6 +7198,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1480220525, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: speed
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480220525, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: puzzle
       value: 
       objectReference: {fileID: 872950455}
@@ -8097,7 +8099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5718746841938785518, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5718746841938785518, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8831,8 +8833,9 @@ Transform:
   - {fileID: 652404204}
   - {fileID: 747126189}
   - {fileID: 7099811140725496917}
+  - {fileID: 1485028758943662662}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &401826687
 PrefabInstance:
@@ -11230,7 +11233,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &458199609
 GameObject:
@@ -12113,13 +12116,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487590587}
-  m_LocalRotation: {x: 0.17092167, y: -0.4536868, z: 0.08912556, w: 0.8700636}
-  m_LocalPosition: {x: 554.39307, y: 59.56, z: 305.32193}
+  m_LocalRotation: {x: 0.20237651, y: -0.44860995, z: 0.1050606, w: 0.86415}
+  m_LocalPosition: {x: 22.352173, y: 11.599998, z: -17.857239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 932054257}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1125215236}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &493247097
@@ -13076,7 +13079,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1125215236}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &540284579
 MonoBehaviour:
@@ -13101,7 +13104,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 4358e0c2ba9134646b53b367ae272347, type: 2}
   m_InitialState: 0
-  m_WrapMode: 2
+  m_WrapMode: 0
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -13110,6 +13113,7 @@ PlayableDirector:
   m_ExposedReferences:
     m_References:
     - cc4d0720ae803fa45aa16256807710ca: {fileID: 1259490547}
+    - ab0164a5f6b29ec42b65dcf5c262800b: {fileID: 1259490547}
     - 24bf5aaa8aeefb14bb2b4f4540776f34: {fileID: 487590588}
 --- !u!1 &542508511
 GameObject:
@@ -16820,7 +16824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9198690396423181094, guid: 6a5942687c26ef74f972d465170cd7e4, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9198690396423181094, guid: 6a5942687c26ef74f972d465170cd7e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17634,7 +17638,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &739837734
 GameObject:
@@ -21670,6 +21674,7 @@ MonoBehaviour:
   menuOpen: {fileID: 8300000, guid: 6035120bd60061a47a85b0e20eeab995, type: 3}
   menuClose: {fileID: 8300000, guid: 8af44433c36fe8840a5dc0c0823c7b78, type: 3}
   menuSelect: {fileID: 8300000, guid: b4956ec593bfb3142a1fb0e38a1f1b5f, type: 3}
+  slider: {fileID: 1506466981}
 --- !u!4 &874576009
 Transform:
   m_ObjectHideFlags: 0
@@ -21683,7 +21688,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &874576010
 MonoBehaviour:
@@ -21768,7 +21773,7 @@ MonoBehaviour:
   FindMonumentCheck: {fileID: 1278964047}
   PlaceStonesCheck: {fileID: 729086940}
   player: {fileID: 845232238}
-  minimap: {fileID: 159742826}
+  mainCanvas: {fileID: 1931100544}
   missionMarks:
   - {fileID: 1211005346}
   - {fileID: 725470673}
@@ -21786,6 +21791,7 @@ MonoBehaviour:
   - {fileID: 1846703066}
   - {fileID: 1657742973}
   - {fileID: 215328653}
+  - {fileID: 2292386521545955580}
 --- !u!1 &874605735
 GameObject:
   m_ObjectHideFlags: 0
@@ -25423,22 +25429,22 @@ MonoBehaviour:
   m_Appearance:
     pathColor: {r: 0, g: 1, b: 0, a: 1}
     inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    width: 0.2
-  m_Looped: 0
+    width: 8.2
+  m_Looped: 1
   m_Waypoints:
-  - position: {x: 0, y: 0, z: -5}
+  - position: {x: -0.60565186, y: 0, z: 3.613037}
     roll: 0
-  - position: {x: 7.79834, y: -17.286045, z: -100.33969}
+  - position: {x: -50.90265, y: 5, z: 132.03922}
     roll: 0
-  - position: {x: 50.47003, y: -34.57209, z: -224.32358}
+  - position: {x: -222.70688, y: 5, z: 149.57812}
     roll: 0
-  - position: {x: 83.3858, y: -41.693848, z: -370.0314}
+  - position: {x: -386.52502, y: 5, z: 25.099518}
     roll: 0
-  - position: {x: 170.03818, y: -48.815605, z: -382.4105}
+  - position: {x: -362.4101, y: 5, z: -298.24844}
     roll: 0
-  - position: {x: 256.69055, y: -55.937363, z: -394.78958}
+  - position: {x: -64.27792, y: 5, z: -295.3164}
     roll: 0
-  - position: {x: 420.71695, y: -38.51731, z: -302.54517}
+  - position: {x: 23.616028, y: 5, z: -125.454025}
     roll: 0
 --- !u!4 &1004654157
 Transform:
@@ -25448,7 +25454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004654155}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 160.1, y: 78.1, z: 410.7}
+  m_LocalPosition: {x: 548, y: 78.1, z: 362.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25715,6 +25721,70 @@ PrefabInstance:
       propertyPath: input
       value: 
       objectReference: {fileID: 1113957302}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Novora: Wow, I haven''t seen a working X series robot in years.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'X-37: Hello, you must be Novora. Right? I need some information about
+        the harm that humans cause to nature.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'Novora: Yes, I''m Novora. Unfortunately the environmental situation
+        of the Earth poses a rather serious problem. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'Novora: Ecosystems have been severely damaged as a result of human
+        misapplications in the past and their tendency to exploit nature.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: "Novora:\tAs a result, a number of problems have emerged such as climate
+        change, habitat destruction, water pollution, soil erosion and biodiversity
+        loss."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: 'X-37: How could people do this evil to themselves...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 'Novora: We didn''t appreciate what we had.. and we killed nature..'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: 'Novora: I am one of the few people who stay here, are trying to get
+        the Earth back to its good old days.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: 'Novora: However, our efforts are not enough, we cannot grow efficient
+        crops due to the high radiation on Earth.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: 'X-37: Is there anything I can do to resolve this situation?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: 'Novora: Can you measure the sunflowers in my garden and bring the frequency
+        to the required value?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: 'X-37: Of course! I can help you and the Earth.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1462386671950737882, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6949824642861522724, guid: 54d96ebabc3051b478368267348bcec4, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -28094,11 +28164,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 487590589}
   - {fileID: 260572884}
   - {fileID: 41364085}
   - {fileID: 540284578}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1127531901
 GameObject:
@@ -28124,7 +28195,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127531901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 321.3, y: 15.2, z: 196.3}
+  m_LocalPosition: {x: 321.3, y: 11.34, z: 196.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29661,6 +29732,113 @@ PrefabInstance:
       propertyPath: input
       value: 
       objectReference: {fileID: 1113957302}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Kuesa: Hello, I''m Kuesa. I''m suprized to see a robot, are you a real
+        robot?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 'X-37: Yes, that''s correct. I am X-37. I apologize for surprising you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'Kuesa: It''s remarkable to think about the state of the world we find
+        ourselves in. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'Kuesa: The year is 2148, and Earth has been devastated by wars over
+        limited resources. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 'Kuesa: People with means have fled to Mars, leaving behind desolate
+        cities and the remnants of a once-thriving civilization.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: 'X-37: As an artificial being, I do not possess memories of the events
+        that led to this collapse, nor do I remember my purpose.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 'X-37: However, I feel a deep curiosity and a desire to understand my
+        own existence and uncover the fate of humanity.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: 'Kuesa: Your programming is impressive, X-37. Despite the chaos that
+        surrounds us, you remain driven to seek answers. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: 'Kuesa: It''s as if you have a mission of your own, a purpose waiting
+        to be discovered.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: 'X-37: That is precisely how I feel, Kuesa. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: 'X-37: I have embarked on a journey to unravel the secrets of my creation,
+        to find out why I was designed and what role I can play in this new world. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: 'X-37: Do you think there''s still hope for humanity?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: 'Kuesa: It''s hard to say, X-37. The challenges we face are immense,
+        and the scars left by the wars are deep. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
+      value: 'Kuesa: But I believe that as long as there are beings like you, driven
+        by curiosity and a desire for understanding, there is always hope.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: 'Kuesa: We must strive to learn from our mistakes and build a better
+        future.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[15]
+      value: 'X-37: I appreciate your optimism, Kuesa. It gives me strength to continue
+        my quest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[16]
+      value: 'X-37: Perhaps through the knowledge I acquire and the discoveries I
+        make, I can contribute to the resurgence of humanity and help prevent the
+        mistakes of the past from being repeated.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[17]
+      value: 'X-37: It excites me to believe that I can contribute to the future
+        of humanity, Kuesa. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[18]
+      value: 'Kuesa: Your determination is inspiring, X-37. You can uncover the truth
+        and forge a path towards a brighter tomorrow. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[19]
+      value: 'X-37: We may not have all the answers now, but with each step we take,
+        we bring ourselves closer to understanding who we are and what we can become.
+        Let me embark on this journey, for the future of humanity.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181759981, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
+      propertyPath: dialogue.sentences.Array.data[20]
+      value: 'Kuesa: Your first mission may be to assist Novora.'
+      objectReference: {fileID: 0}
     - target: {fileID: 6307796496176500440, guid: c48ccd4514b92c8458f9a430ebfa94d5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -30523,7 +30701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31025,7 +31203,7 @@ Transform:
   - {fileID: 1523158731}
   - {fileID: 458199610}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259490545
 GameObject:
@@ -31051,8 +31229,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259490545}
-  m_LocalRotation: {x: 0.072021686, y: 0.80472165, z: -0.09979662, w: 0.5807553}
-  m_LocalPosition: {x: 160.46735, y: 78.1, z: 415.69327}
+  m_LocalRotation: {x: 0.10337245, y: -0.7187122, z: 0.10944835, w: 0.67881364}
+  m_LocalPosition: {x: 549.3702, y: 78.1, z: 356.11017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -35185,7 +35363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45896,7 +46074,7 @@ Transform:
   - {fileID: 794250343}
   - {fileID: 996935044}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1850975472
 PrefabInstance:
@@ -47739,7 +47917,7 @@ RectTransform:
   - {fileID: 2074752064}
   - {fileID: 1855639973}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -48121,7 +48299,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1961663636
 MonoBehaviour:
@@ -51036,6 +51214,61 @@ PrefabInstance:
       propertyPath: input
       value: 
       objectReference: {fileID: 1113957302}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'X-37: Your friend Novora guided me to help you.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[0]
+      value: 'Grimnir: I can''t believe it!! My rabbits look healthy than before.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[1]
+      value: 'X-37: I''m sure they''ll get better with time.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[2]
+      value: 'Grimnir: I think the radiation that made my rabbits sick was also affecting
+        the trees.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[3]
+      value: 'Grimnir: How green the trees were. I think they looked like this a
+        long time ago.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[4]
+      value: 'Grimnir: Thank you very much. Glad you came. I will never forget this
+        favor.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[5]
+      value: 'Grimnir: I live in the northern town of Tehic.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[6]
+      value: 'Grimnir: But its air and surroundings are so polluted that it is not
+        possible to sustain life,'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[7]
+      value: 'Grimnir: I take care of my sheep in my cabin here to get some fresh
+        air.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[8]
+      value: 'Grimnir: I miss our old days so much. I wish I could get it back to
+        the way it was.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360085280, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
+      propertyPath: dialogue.secondSentences.Array.data[9]
+      value: 'Grimnir: Well, I guess I bothered you too with my story. Thank you
+        again.'
+      objectReference: {fileID: 0}
     - target: {fileID: 1067053214699150, guid: ffa08167d28cfd24dba0151a4c80f384, type: 3}
       propertyPath: m_Name
       value: Grimnir
@@ -52440,9 +52673,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2292386521545955580}
-  m_LocalRotation: {x: 3.5527133e-15, y: 0.42301986, z: -0, w: 0.90612036}
+  m_LocalRotation: {x: 3.5527135e-15, y: 0.4230199, z: -0, w: 0.9061204}
   m_LocalPosition: {x: 531.1993, y: 48, z: 321.51492}
-  m_LocalScale: {x: 0.77020013, y: 0.7702, z: 0.7702}
+  m_LocalScale: {x: 0.77020013, y: 0.7702, z: 0.77019995}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3141769148125126727}
@@ -52453,8 +52686,8 @@ Transform:
   - {fileID: 3672991984066075109}
   - {fileID: 8034228887225308989}
   - {fileID: 4588073487644173873}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 390761297}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 50.051, z: 0}
 --- !u!1 &1591113580879472460
 GameObject:
@@ -52650,7 +52883,7 @@ Transform:
   - {fileID: 542508512}
   - {fileID: 874605736}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2114283754330233424
 GameObject:
@@ -52966,7 +53199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2292386521545955581
 Animator:
   serializedVersion: 5
@@ -53150,7 +53383,7 @@ PrefabInstance:
       objectReference: {fileID: 1506466981}
     - target: {fileID: 2671429275351524619, guid: 2291188362d2b6e4abcd475934022890, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2671429275351524619, guid: 2291188362d2b6e4abcd475934022890, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53407,8 +53640,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7, y: 10, z: 7}
-  m_Center: {x: 12, y: 0, z: -11.999999}
+  m_Size: {x: 7.1397047, y: 9.999998, z: 8.0290785}
+  m_Center: {x: 12.069883, y: 1.4614584e-14, z: -11.964806}
 --- !u!4 &4588073487644173873
 Transform:
   m_ObjectHideFlags: 0
@@ -53466,8 +53699,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7, y: 10, z: 7}
-  m_Center: {x: -12, y: 0, z: -11.999999}
+  m_Size: {x: 6.999999, y: 9.999998, z: 8.032298}
+  m_Center: {x: -12.000006, y: -3.029036e-14, z: -12.516154}
 --- !u!23 &5052073590255994607
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72977,8 +73210,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7, y: 10, z: 7}
-  m_Center: {x: -12, y: 0, z: 11.999999}
+  m_Size: {x: 7.513165, y: 9.999998, z: 7.488974}
+  m_Center: {x: -11.743435, y: -2.7702817e-14, z: 11.953224}
 --- !u!64 &6724093756506097403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -73609,8 +73842,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7, y: 10, z: 7}
-  m_Center: {x: 12, y: 0, z: 11.999999}
+  m_Size: {x: 7.13369, y: 9.999998, z: 6.999999}
+  m_Center: {x: 11.933155, y: 3.1209363e-14, z: 12}
 --- !u!4 &8223592395960195190
 Transform:
   m_ObjectHideFlags: 0

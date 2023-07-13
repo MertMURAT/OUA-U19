@@ -23,7 +23,6 @@ public class DialogueTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             TriggerDialogue();
-            Debug.Log("Dialogue Trigger");
         }
     }
 
@@ -34,7 +33,6 @@ public class DialogueTrigger : MonoBehaviour
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOVORA, MissionSystem.MissionStatus.ONGOING);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Start dialogue");
             startDialogue = true;
         }
 
@@ -43,63 +41,55 @@ public class DialogueTrigger : MonoBehaviour
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOVORA, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Novora's first dialogue");
         }
         else if (dialogue.name == "Novora" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.BACK_TO_NOVORA) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.BACK_TO_NOVORA, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<SecondDialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Novora's second dialogue");
         }
         else if (dialogue.name == "Grimnir" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_GRIMNIR) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_GRIMNIR, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Grimnir's first dialogue");
         }
         else if (dialogue.name == "Grimnir" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.BACK_TO_GRIMNIR) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.BACK_TO_GRIMNIR, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<SecondDialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Grimnir's second dialogue");
         }
         else if (dialogue.name == "X-37" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_TOWN) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_TOWN, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Find Town dialogue");
         }
         else if (dialogue.name == "Nolf" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_NOLF) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_NOLF, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Nolf's dialogue");
         }
         else if (dialogue.name == "Uten" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_UTEN) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_UTEN, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Uten's dialogue");
+   
         }
         else if (dialogue.name == "Highin" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_HIGHIN) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_HIGHIN, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Highin's dialogue");
         }
         else if (dialogue.name == "X-37" && MissionSystem.instance.GetMissionData(MissionSystem.Mission.FIND_MONUMENT) == MissionSystem.MissionStatus.ONGOING)
         {
             MissionSystem.instance.SetMissionData(MissionSystem.Mission.FIND_MONUMENT, MissionSystem.MissionStatus.COMPLETED);
             FindObjectOfType<SecondDialogueManager>().StartDialogue(dialogue);
             input.enabled = false;
-            Debug.Log("Find Town dialogue");
         }
 
 

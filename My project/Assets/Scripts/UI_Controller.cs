@@ -15,6 +15,7 @@ public class UI_Controller : MonoBehaviour
     public PlayerInput playerInput;
     public GameObject[] chapterPanels;
     public AudioClip menuOpen, menuClose, menuSelect;
+    public Slider slider;
 
 
 
@@ -22,6 +23,9 @@ public class UI_Controller : MonoBehaviour
     {
         playerInput.enabled = true;
         Cursor.visible = false;
+
+        SoundManager.instance.SetBGMVolume(0.05f);
+        slider.value = 0.1f;
     }
 
     void Update()

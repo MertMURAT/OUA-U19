@@ -7,6 +7,11 @@ public class Menu : MonoBehaviour
 {
     public AudioClip menuSelect;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
     public GameObject startMenu, creditsMenu;
     public void PlayButton()

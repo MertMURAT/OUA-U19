@@ -113,7 +113,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7851806277218877140, guid: 20752bbf2f5d71944bcff39c7a6e686f, type: 3}
+    - {fileID: 5574232401924893130, guid: 20752bbf2f5d71944bcff39c7a6e686f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 20752bbf2f5d71944bcff39c7a6e686f, type: 3}
 --- !u!4 &810170075040193303 stripped
 Transform:
@@ -175,7 +177,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8424673313477904818, guid: b991a99ddd15f484282918f293debed3, type: 3}
+    - {fileID: 5318278812454162275, guid: b991a99ddd15f484282918f293debed3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b991a99ddd15f484282918f293debed3, type: 3}
 --- !u!4 &2534515406223079456 stripped
 Transform:
@@ -241,7 +245,9 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8120722927184218745, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
+    - {fileID: 113616437297604883, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
 --- !u!4 &1424807126091399891 stripped
 Transform:
@@ -303,7 +309,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -91.972
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -9179231334457585049, guid: 53cd7359f481927469e4321600596c6b, type: 3}
+    - {fileID: 8278335166772883866, guid: 53cd7359f481927469e4321600596c6b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 53cd7359f481927469e4321600596c6b, type: 3}
 --- !u!4 &279151422077665663 stripped
 Transform:
@@ -365,7 +373,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.536
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4130778146538942887, guid: 3821453175ca30243b7074a7311765aa, type: 3}
+    - {fileID: -8710141907148444901, guid: 3821453175ca30243b7074a7311765aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3821453175ca30243b7074a7311765aa, type: 3}
 --- !u!4 &7219065033295597086 stripped
 Transform:
@@ -427,7 +437,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3314472311758639631, guid: bbc1f0fc0f45274428dade32ac94941e, type: 3}
+    - {fileID: -6485983024345922542, guid: bbc1f0fc0f45274428dade32ac94941e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbc1f0fc0f45274428dade32ac94941e, type: 3}
 --- !u!4 &2534515404793256089 stripped
 Transform:
@@ -489,7 +501,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Orange Crushed
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2821504728971672446, guid: 1710829442f9c9d4eb7b72a86cb006b8, type: 3}
+    - {fileID: -1682180740487042471, guid: 1710829442f9c9d4eb7b72a86cb006b8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1710829442f9c9d4eb7b72a86cb006b8, type: 3}
 --- !u!4 &9017174512594659047 stripped
 Transform:
@@ -551,7 +565,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7147489193568715289, guid: 094b5e0777b67a64f88ce0eb50166234, type: 3}
+    - {fileID: -6823221680061021417, guid: 094b5e0777b67a64f88ce0eb50166234, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 094b5e0777b67a64f88ce0eb50166234, type: 3}
 --- !u!4 &1854951136359194857 stripped
 Transform:
@@ -613,7 +629,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Red Broke 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1753554022348555722, guid: 7899e43a811a2fe43ad1dea14f502569, type: 3}
+    - {fileID: 1332314560172780016, guid: 7899e43a811a2fe43ad1dea14f502569, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7899e43a811a2fe43ad1dea14f502569, type: 3}
 --- !u!4 &4767714234348560760 stripped
 Transform:
@@ -675,7 +693,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6539282447755850197, guid: adffeaf7a5f1f6a49b3d7d275ca84f2e, type: 3}
+    - {fileID: 3012452912360831167, guid: adffeaf7a5f1f6a49b3d7d275ca84f2e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: adffeaf7a5f1f6a49b3d7d275ca84f2e, type: 3}
 --- !u!4 &3223810954375730952 stripped
 Transform:
@@ -737,7 +757,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Green
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2781906409031210089, guid: 8d1907721f1c47446a102b00e73c8185, type: 3}
+    - {fileID: -1413183259077985761, guid: 8d1907721f1c47446a102b00e73c8185, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8d1907721f1c47446a102b00e73c8185, type: 3}
 --- !u!4 &8446774823473242000 stripped
 Transform:

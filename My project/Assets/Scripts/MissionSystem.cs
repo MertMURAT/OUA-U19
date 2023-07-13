@@ -51,7 +51,7 @@ public class MissionSystem : MonoBehaviour
 
     ThirdPersonController controller;
     public GameObject player;
-    public GameObject minimap;
+    public GameObject mainCanvas;
     private Animator anim;
 
     public GameObject[] missionMarks;
@@ -117,7 +117,7 @@ public class MissionSystem : MonoBehaviour
     {
         HealSunflowerCount++;
         HealSunflowerText.text = " Heal Sunflower " + HealSunflowerCount.ToString() + " / 10";
-        if (HealSunflowerCount == 1)
+        if (HealSunflowerCount == 10)
         {
             End_HealSunflower();
         }
@@ -171,7 +171,7 @@ public class MissionSystem : MonoBehaviour
     {
         HealAnimalsCount++;
         HealAnimalsText.text = " Heal Rabbits " + HealAnimalsCount.ToString() + " / 10";
-        if (HealAnimalsCount == 1)
+        if (HealAnimalsCount == 10)
         {
             End_HealAnimals();
             TerrainChanger.instance.ChangeTree();
@@ -255,7 +255,6 @@ public class MissionSystem : MonoBehaviour
     {
         CollectWastesCount++;
         CollectWastesText.text = " Collect Wastes " + CollectWastesCount.ToString() + " / 10";
-        Debug.Log(CollectWastesCount);
         if (CollectWastesCount == 10)
         {
             End_CollectWastes();
@@ -379,7 +378,7 @@ public class MissionSystem : MonoBehaviour
 
             Cinematic.instance.EndCinematic();
             player.SetActive(false);
-            minimap.SetActive(false);
+            mainCanvas.SetActive(false);
         }
     }
 
@@ -445,8 +444,6 @@ public class MissionSystem : MonoBehaviour
 
     public void SetMissionData(Mission mission, MissionStatus status)
     {
-        Debug.Log(mission + "/" + status);
-
         if (MissionData.ContainsKey(mission))
         {
             MissionData[mission] = status;
@@ -765,6 +762,11 @@ public class MissionSystem : MonoBehaviour
     public void SolarPanelMaterials()
     {
         missionMaterials[3].SetActive(true);
+    }
+
+    public void MonumentMaterials()
+    {
+        missionMaterials[4].SetActive(true);
     }
 
     #endregion

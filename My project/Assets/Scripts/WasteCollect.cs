@@ -29,6 +29,5 @@ public class WasteCollect : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         ThirdPersonController.instance.EnableInput();
-
     }
 }

@@ -10,19 +10,12 @@ public class SoundManager : MonoBehaviour
 
     public AudioSource SFXManager1, SFXManager2, BGM;
     public AudioClip[] themeSongs;
-    public Slider slider;
     public AudioMixer BGM_Mixer, SFX_Mixer;
 
     
     void Awake()
     {
         MakeSingleton();
-    }
-
-    private void Start()
-    {
-        SetBGMVolume(0.05f);
-        slider.value = 0.1f;
     }
 
     void MakeSingleton()
@@ -87,7 +80,6 @@ public class SoundManager : MonoBehaviour
     public void SetBGMVolume(float volume)
     {
         BGM_Mixer.SetFloat("BGM_Volume", Mathf.Log10(volume) * 20);
-        Debug.Log(volume);
     }
 
     public void SetSFXVolume(float volume)

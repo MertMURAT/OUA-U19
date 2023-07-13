@@ -31,7 +31,7 @@ public class Cinematic : MonoBehaviour
 
     IEnumerator changeScene()
     {
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(30);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

@@ -7,12 +7,10 @@ public class LanternController : MonoBehaviour
     public bool lightsEnabledOnStart;
 
     public Light myLight;
-    //private ParticleSystem myParticles;
     private bool lightOn, flickerLight;
     private float wantedLightIntencity;
     private Coroutine animateLights;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (lightsEnabledOnStart)
@@ -22,11 +20,11 @@ public class LanternController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (flickerLight)//dim lights
+        if (flickerLight)
         {
+
             if (wantedLightIntencity == 0 && myLight.intensity <= 0)
             {
-                //disable light
                 myLight.enabled = false;
                 flickerLight = false;
             }
@@ -38,19 +36,15 @@ public class LanternController : MonoBehaviour
     {
         while (lightOn)
         {
-            //Set random intencity
             wantedLightIntencity = Random.Range(minLightIntencity, maxLightIntencity);
             yield return new WaitForSeconds(Random.Range(0.2f, 1f));
         }
     }
-
-    //Turn light On/Off
     public void ToggleLight()
     {
         lightOn = !lightOn;
         if (lightOn)
         {
-            //myParticles.Play();
             myLight.enabled = true;
             animateLights = StartCoroutine(FlickerLight());
             flickerLight = true;
@@ -59,7 +53,6 @@ public class LanternController : MonoBehaviour
         {
             StopCoroutine(animateLights);
             wantedLightIntencity = 0;
-            //myParticles.Stop();
         }
     }
 }

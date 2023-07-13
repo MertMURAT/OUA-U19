@@ -83,8 +83,8 @@ public class PuzzlePlatformManager : MonoBehaviour
             }
             else
             {
-                ResetLights();
-                ResetBools();
+                    ResetLights();
+                    ResetBools();
             }
         }
     }
