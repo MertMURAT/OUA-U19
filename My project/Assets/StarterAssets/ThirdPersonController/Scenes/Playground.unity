@@ -6595,8 +6595,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.4776864, y: 15, z: 0.37309894}
-  m_Center: {x: 0.017777335, y: 5, z: 2.200506}
+  m_Size: {x: 7.4776864, y: 11.841538, z: 0.37309894}
+  m_Center: {x: 0.017777335, y: 3.4207692, z: 2.200506}
 --- !u!65 &311501407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6608,8 +6608,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.34344158, y: 15, z: 4.633705}
-  m_Center: {x: 3.576827, y: 5, z: -0.015744857}
+  m_Size: {x: 0.34344158, y: 12.190452, z: 4.633705}
+  m_Center: {x: 3.5768185, y: 3.5952258, z: -0.015744876}
 --- !u!65 &311501408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6621,8 +6621,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.165205, y: 15, z: 0.4249348}
-  m_Center: {x: 0.2021157, y: 5, z: -2.1287525}
+  m_Size: {x: 7.165205, y: 12.268527, z: 0.42493495}
+  m_Center: {x: 0.2021157, y: 3.6342635, z: -2.1287525}
 --- !u!65 &311501409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6634,8 +6634,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.38259345, y: 15, z: 4.6955576}
-  m_Center: {x: -3.6074994, y: 5, z: 0.039920524}
+  m_Size: {x: 0.38259345, y: 11.583943, z: 4.695559}
+  m_Center: {x: -3.607483, y: 3.2919717, z: 0.039920554}
 --- !u!1 &314564328
 GameObject:
   m_ObjectHideFlags: 0
@@ -7375,6 +7375,10 @@ PrefabInstance:
       propertyPath: resetPos
       value: 
       objectReference: {fileID: 1127531902}
+    - target: {fileID: 2138298636, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4906321429925310036, guid: 2031382ce10ef0f4a8e75134f2ec0eb3, type: 3}
       propertyPath: m_Name
       value: PlayerArmature
@@ -10971,7 +10975,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487590587}
-  m_LocalRotation: {x: 0.2023765, y: -0.44860995, z: 0.1050606, w: 0.86415}
+  m_LocalRotation: {x: 0.20237651, y: -0.44860995, z: 0.1050606, w: 0.86415}
   m_LocalPosition: {x: 22.352173, y: 11.599998, z: -17.857239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -40279,7 +40283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1657742974
 Transform:
   m_ObjectHideFlags: 0
