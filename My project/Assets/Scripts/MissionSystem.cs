@@ -340,6 +340,7 @@ public class MissionSystem : MonoBehaviour
         FindHighinCheck.SetActive(true);
         Chapter4.SetActive(false);
         Chapter5.SetActive(true);
+        MonumentMaterials();
     }
     #endregion
 

@@ -23,7 +23,6 @@ public class FrequencySystem : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("OnTriggerStay");
         if (other.gameObject.tag == "Player" && Input.GetKey(KeyCode.F) && ThirdPersonController.instance.Grounded == true && !isChanged)
         {
             if (slider.value < slider.maxValue)
