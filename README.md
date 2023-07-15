@@ -114,24 +114,23 @@ https://miro.com/welcomeonboard/OEhwVTJwSTlSNTl1TjlFRUtPUUt0Y3pnbXhTSENZcUo4aGJv
 
 # Sprint 3
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- Sprint içinde tamamlanması tahmin edilen puan: 91 Puan
+
+- Daily Scrum: Takım içinde iletişimi Whatsapp ve Discord üzerinden sağlıyoruz. Her gün hem sesli hem mesaj ile iletişim halindeyiz. Haftanın 5 günü 20:00 ile 22:00 arasında Discord üzerinden ekran paylaşımı yaparak toplantı yapıyoruz.
+
+- Sprint board update: Sprint board screenshotları: https://miro.com/app/board/uXjVMBtuo7I=/
+![Unity U-19 Team (Sprint 3)](https://github.com/MertMURAT/OUA-U19/assets/129547499/c76fbcb4-69ac-4640-af05-e75d47bb8913)
 
 
-- **Daily Scrum**: 
+- Ürün Durumu: Ekran görüntüleri: 
+https://youtu.be/PS_2uC73WFs
+https://rainalo.itch.io/symphocycle 
 
-- **Sprint board update**: Sprint board screenshotları: 
+- Sprint Review: Görev sistemi geliştirildi ve görevler tamamlandı. Görevler arası puzzle mekanikleri tamamlandı. Terrain son haline getirildi. Sinematikler ayarlandı. Diyaloglar tamamlandı. Start Menü hazırlandı. SFX ve BGM eklendi.
 
+- Sprint Retrospective: Oyunu daha eğlenceli hala getirmek için daha fazla puzzle eklenebilirdi. Map daha aktif kullanılabilirdi. Daha ilgi çekici görevler eklenebilirdi.
 
-
-- **Ürün Durumu**: Ekran görüntüleri:
- 
-
-- **Sprint Review**: 
-
-Sprint Review katılımcıları: 
-
-- **Sprint Retrospective:**
-
- 
+ ## Juriye Not
+ Analytics ve Advertisement sadece Android ve ios cihazlar için uyumlu olduğu için windows tabanlı projemize entegre edemedik. Bu sebeple oyunumuzun Steam'de ücretli olarak satışa çıkartılması kararlaştırıldı.
 
 ---
