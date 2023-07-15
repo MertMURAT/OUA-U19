@@ -21,22 +21,21 @@ https://miro.com/welcomeonboard/OEhwVTJwSTlSNTl1TjlFRUtPUUt0Y3pnbXhTSENZcUo4aGJv
 
 ## Ürün Açıklaması
 
-Symphocycle, frekans teknolojisi aracılığıyla çevreyi daha iyi bir yer haline getirmek için heyecan verici bir macera sunan yenilikçi bir oyundur. Oyuncular, sürdürülebilirlik konusunda farkındalık yaratmak için çevrelerindeki nesnelerin frekanslarını kullanarak çevreyi keşfeder ve dönüştürür.
-
-Gelişmiş bir cihazla donatılan oyuncular, çevrelerindeki nesnelerin frekanslarını analiz edebilir ve bu bilgileri çevreyi iyileştirmek için kullanabilirler. Örneğin, çevredeki enerji kaynaklarının kullanımını optimize etmek, atık yönetimini iyileştirmek veya doğal kaynakların korunmasına yardımcı olmak gibi çeşitli görevleri yerine getirebilirler.
-
+Sürdürülebilirlik ve insanlığın hayatta kalma mücadelesini iç içe geçiren bir uzak gelecek hikayesi.
+Yok olmanın eşiğinde dünyanın bu hali geleceğimizi sorgulamanıza neden oluyor.
+Oyunumuzu yazarken dünyada sürdürülebilirlik temasını esas aldık. Bir şeyin sürdürülebilirliği temelde frekansının korunmasından geçtiği için biz de bu fikirden hareketle tasarım yapmaya başladık.
+Symphocycle ismi; senfoni, bütünün orkestrası olarak soyut kullanımdan türetilen ve döngüden, yani muhteşem döngü ve sürekliliklerinden ilham alan bir isim olmuştur. Symphocycle atık yönetimini iyileştirmek, enerji kaynağı kullanımını optimize etmek ve doğal kaynakların korunmasına yardımcı olmak için çeşitli görevlerde, NPC ve 3D bulmacalarla etkileşimde ilerleme kaydettik. Oyuncular çevre bilincinden ilham alırken aynı zamanda eğlenme fırsatı da buluyorlar.
 Symphocycle'ın etkileyici grafikleri ve gerçekçi ses tasarımı, oyuncuların kendilerini tamamen oyun dünyasının içinde hissetmelerini sağlayacaktır. Her seviye farklı bir ortamı temsil eder ve oyuncuların çevreye duyarlı çözümler bulmaları gereken benzersiz zorluklar sunar.
-
 Oyunda ilerledikçe, oyuncular sürdürülebilirlik hakkında daha fazla bilgi edinir ve gerçek dünyada uygulanabilir çözümler geliştirmeye teşvik edilirler.
-
 Symphocycle, eğlenceli ve eğitici bir deneyim sunarak sürdürülebilirlik bilincini artırmayı amaçlayan bir oyundur. Oyuncular, çevreye duyarlı olma konusunda ilham alırken kendi becerilerini geliştirme ve benzersiz çözümler yaratma fırsatına sahip olurlar.
 
 
 ## Ürün Özellikleri
-- Symphocycle, PC platformunda 3D olarak oynanmak üzere tasarlanmıştır. (Co-op bir biçimde oynanabilir.)
-- Frekans Analiz Cihazı: Oyuncular, çevredeki nesnelerin frekanslarını analiz edebilen bir cihaza sahip olacaklar. Bu cihaz, çevredeki enerji kaynaklarını, atıkları veya doğal kaynakları algılamak ve ölçmek için kullanılabilir.
-- Gerçek Zamanlı Veri Gösterimi: Oyuncular, cihazları aracılığıyla gerçek zamanlı olarak çevre verilerini görebilecekler. Bu veriler, enerji tüketimi, atık yönetimi, su kaynakları, bitki ve hayvan yaşamı gibi çevresel faktörleri içerebilir.
-- Çevresel Dönüşüm Yetenekleri: Oyuncular, frekans analiz cihazlarını kullanarak çevreyi dönüştürebilirler. Örneğin, enerji kaynaklarını optimize edebilir, atık yönetimini iyileştirebilir veya doğal kaynakları korumak için önlemler alabilirler.
+- Symphocycle'ın temel hedefi insanlarda sürdürülebilirlik bilinci yaratmaktır.
+- Symphocycle, PC platformunda 3D olarak oynanmak üzere tasarlanmıştır. 
+- Frekans Analiz Yeteneği: Oyuncular, çevredeki nesnelerin frekanslarını analiz edebilen bir yeteneğe sahip olacaklar. Bu yetenek, çevredeki enerji kaynaklarını, atıkları veya doğal kaynakları algılamak ve ölçmek için kullanılabilir.
+- Çevresel Dönüşüm Yetenekleri: Oyuncular, frekans analiz yeteneğini kullanarak çevreyi dönüştürebilirler. Örneğin, enerji kaynaklarını optimize edebilir, atık yönetimini iyileştirebilir veya doğal kaynakları korumak için önlemler alabilirler.
+
 
 ## Hedef Kitle
 - 13+
