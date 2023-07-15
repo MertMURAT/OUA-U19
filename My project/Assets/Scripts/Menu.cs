@@ -6,6 +6,15 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     public AudioClip menuSelect;
+    public AudioSource audioSource;
+
+    private void Update()
+    {
+        if (SoundManager.instance.BGM.isPlaying)
+        {
+            audioSource.mute = true;
+        }
+    }
 
     private void Start()
     {
